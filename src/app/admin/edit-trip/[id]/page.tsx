@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useAuth } from "../../../../contexts/AuthContext";
 import { useRouter, useParams } from "next/navigation";
-import { Trip, BadgeType, ContactSettings } from "../../../../data/types";
+import { Trip, BadgeType } from "../../../../data/types";
 import Link from "next/link";
 import Image from "next/image";
 import useSWR from "swr";
@@ -25,11 +25,11 @@ export default function EditTrip() {
     fetcher
   );
 
-  // Use SWR for contact settings
-  const { data: contactSettings } = useSWR<ContactSettings>(
-    isAdmin ? "/api/contact-settings" : null,
-    fetcher
-  );
+  // Use SWR for contact settings - currently not used in edit page
+  // const { data: contactSettings } = useSWR<ContactSettings>(
+  //   isAdmin ? "/api/contact-settings" : null,
+  //   fetcher
+  // );
 
   // Form state
   const [formData, setFormData] = useState<Omit<Trip, "id">>({
@@ -112,6 +112,11 @@ export default function EditTrip() {
     maxSizeKB: number = 80
   ): Promise<string> => {
     return new Promise((resolve) => {
+      if (typeof window === "undefined") {
+        resolve(""); // Return empty string on server
+        return;
+      }
+
       const canvas = document.createElement("canvas");
       const ctx = canvas.getContext("2d");
       const img = document.createElement("img");

@@ -71,6 +71,11 @@ export default function AddTrip() {
     maxSizeKB: number = 80
   ): Promise<string> => {
     return new Promise((resolve) => {
+      if (typeof window === 'undefined') {
+        resolve(''); // Return empty string on server
+        return;
+      }
+
       const canvas = document.createElement("canvas");
       const ctx = canvas.getContext("2d");
       const img = document.createElement("img");

@@ -13,10 +13,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Tikrinam ar yra admin localStorage
-    const adminSession = localStorage.getItem("admin-session");
-    if (adminSession === "true") {
-      setIsAdmin(true);
+    // Tikrinam ar yra admin localStorage (tik browser'yje)
+    if (typeof window !== 'undefined') {
+      const adminSession = localStorage.getItem("admin-session");
+      if (adminSession === "true") {
+        setIsAdmin(true);
+      }
     }
     setIsLoading(false);
   }, []);
@@ -24,7 +26,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const login = async (password: string): Promise<boolean> => {
     if (password === ADMIN_PASSWORD) {
       setIsAdmin(true);
-      localStorage.setItem("admin-session", "true");
+      if (typeof window !== 'undefined') {
+        localStorage.setItem("admin-session", "true");
+      }
       return true;
     }
     return false;
@@ -32,7 +36,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const logout = () => {
     setIsAdmin(false);
-    localStorage.removeItem("admin-session");
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem("admin-session");
+    }
   };
 
   return (

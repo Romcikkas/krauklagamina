@@ -17,7 +17,10 @@ interface FormData {
 
 export default function ContactPage() {
   // Fetch contact settings
-  const { data: settings, isLoading } = useSWR<ContactSettings>("/api/contact-settings", fetcher);
+  const { data: settings, isLoading } = useSWR<ContactSettings>(
+    "/api/contact-settings",
+    fetcher
+  );
 
   // Form state
   const [formData, setFormData] = useState<FormData>({
@@ -28,11 +31,13 @@ export default function ContactPage() {
     message: "",
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -48,8 +53,14 @@ Telefonas: ${formData.phone}
 Žinutė:
 ${formData.message}`);
 
-    const mailtoLink = `mailto:${settings?.defaultEmail || ''}?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink;
+    const mailtoLink = `mailto:${
+      settings?.defaultEmail || ""
+    }?subject=${subject}&body=${body}`;
+
+    // Use window.location only in browser environment
+    if (typeof window !== "undefined") {
+      window.location.href = mailtoLink;
+    }
 
     // Reset form
     setFormData({

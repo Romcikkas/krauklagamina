@@ -7,9 +7,10 @@ const dataFilePath = path.join(process.cwd(), "src/data/trips.json");
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<{ id: string }> }
 ) {
   try {
+    const params = await context.params;
     const tripId = parseInt(params.id);
 
     if (isNaN(tripId)) {

@@ -13,6 +13,7 @@ import {
 } from "react-icons/md";
 import { FaAward, FaGlobeEurope, FaHandshake, FaHeart } from "react-icons/fa";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const teamMembers = [
   {
     name: "Evelina Navickienė",
