@@ -1,0 +1,111 @@
+[
+  {
+    "destination": "Turkija",
+    "date": "2025 rugsėjo 17-24",
+    "duration": "7 n.",
+    "hotelName": "Aroma Butik Hotel",
+    "hotelStars": 3,
+    "rating": 4,
+    "category": "Aukštos klasės",
+    "description": "",
+    "currentPrice": 285,
+    "originalPrice": 320,
+    "image": "/images/alanija.jpg",
+    "badges": [
+      "paskutine-minute"
+    ],
+    "additionalFeatures": [
+      "Baseinas su šildomu vandeniu",
+      "Nemokamas WiFi",
+      "Oro kondicionierius",
+      "Restoranas"
+    ],
+    "flightInfo": "Iš Vilniaus oro uosto",
+    "baggage": "20kg registruotas bagažas",
+    "busTravel": "",
+    "insurance": "Kelionių draudimas įskaičiuotas",
+    "phoneNumber": "+370 600 12345",
+    "email": "info@krauklagamina.lt",
+    "facebook": "https://www.facebook.com/evelina9405",
+    "instagram": "https://instagram.com/krauklagamina",
+    "id": 1
+  },
+  {
+    "id": 3,
+    "destination": "Tenerife",
+    "date": "2025 spalio 2-10",
+    "duration": "8 n.",
+    "hotelName": "Ocean View Hotel",
+    "hotelStars": 4,
+    "rating": 7.9,
+    "category": "Standartinis",
+    "currentPrice": 450,
+    "originalPrice": 495,
+    "image": "/images/tenerife.jpg",
+    "badges": [
+      "dienos-kaina"
+    ],
+    "additionalFeatures": [
+      "Vandenyno vaizdas iš kambario",
+      "Baseinas su saulės terasomis",
+      "Pusryčiai ir vakarienė",
+      "Nemokamas WiFi",
+      "Autobusų stotelė šalia",
+      "Paplūdimys už 200m"
+    ],
+    "flightInfo": "Iš Vilniaus oro uosto",
+    "baggage": "20kg registruotas bagažas",
+    "phoneNumber": "+370 600 12345",
+    "email": "info@krauklagamina.lt"
+  },
+  {
+    "id": 4,
+    "destination": "Egiptas",
+    "date": "2025 spalio 15-24",
+    "duration": "9 n.",
+    "hotelName": "Red Sea Paradise",
+    "hotelStars": 5,
+    "rating": 8.8,
+    "category": "Prabangus",
+    "currentPrice": 680,
+    "originalPrice": 750,
+    "image": "/images/egiptas.jpg",
+    "badges": [
+      "egzotine-kelione"
+    ],
+    "additionalFeatures": [
+      "Prabangūs apartamentai",
+      "Privatus koralų rifas",
+      "5 restoranai ir 4 barai",
+      "Nardymo centras",
+      "Golfas netoliese",
+      "Spa ir masažo procedūros"
+    ],
+    "flightInfo": "Iš Vilniaus oro uosto",
+    "baggage": "30kg registruotas bagažas",
+    "phoneNumber": "+370 600 12345",
+    "email": "info@krauklagamina.lt"
+  },
+  {
+    "destination": "Gruzija",
+    "date": "2025 Liepos 1 - 3 d.",
+    "duration": "2 n.",
+    "hotelName": "Hotel",
+    "hotelStars": 3,
+    "rating": 8,
+    "category": "Standartinis",
+    "currentPrice": 570,
+    "originalPrice": 650,
+    "image": "https://www.makalius.lt/wp-content/travel-destination-images/69134-travel-destination/gruzija-790x363.jpg",
+    "badges": [
+      "dienos-kaina",
+      "viskas-iskaiciuota"
+    ],
+    "additionalFeatures": [],
+    "flightInfo": "Iš Vilniaus oro uosto",
+    "baggage": "20kg registruotas bagažas",
+    "phoneNumber": "+370 600 12345",
+    "email": "info@krauklagamina.lt",
+    "id": 5
+  }
+]
