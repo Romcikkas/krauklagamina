@@ -79,7 +79,7 @@ export default function ApieMusPage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-5 md:pt-0">
         {/* <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 opacity-90"></div> */}
         <div className="absolute inset-0 bg-black/30"></div>
 

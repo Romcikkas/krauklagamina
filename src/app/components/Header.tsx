@@ -68,19 +68,21 @@ export default function Header() {
 
   return (
     <header className="relative z-10 mr-2 w-full bg-gray-50 shadow-xl">
-      <div className="max-w-screen-2xl mx-auto px-6 lg:px-14 py-2 flex items-center w-full justify-between">
+      <div className="max-w-screen-2xl mx-auto px-1 sm:px-4 lg:px-14 py-2 flex items-center w-full justify-between">
         {/* Kairėje: Logo */}
-        <div className="flex-shrink-0 ">
-          <Image
-            src="/images/logo.png"
-            alt="krauklagamina Logo"
-            width={163}
-            height={120}
-            className=""
-          />
+        <div className="flex-shrink-0">
+          <Link href="/">
+            <Image
+              src="/images/logo.png"
+              alt="krauklagamina Logo"
+              width={163}
+              height={120}
+              className="w-[100px] h-[68px] sm:w-[140px] sm:h-[98px] lg:w-[163px] lg:h-[115px] cursor-pointer hover:opacity-80 transition-opacity duration-200"
+            />
+          </Link>
         </div>
         {/* Nav desktop */}
-        <nav className="hidden md:flex flex-1 lg:space-x-2 lg:ml-14 items-center gap-6 lg:gap-10 whitespace-nowrap mx-8 ">
+        <nav className="hidden md:flex flex-1 lg:space-x-2 lg:ml-14 items-center gap-3 lg:gap-10 whitespace-nowrap mx-3 lg:mx-8">
           {menuItems.map((item) => (
             <a
               key={item.name}
@@ -203,26 +205,26 @@ export default function Header() {
             )}
           </div>
           {/* Mobile nav/search/lang + burger menu */}
-          <div className="flex items-center md:hidden gap-3">
+          <div className="flex items-center md:hidden gap-2">
             {/* Contact Icons Mobile */}
             {settings && (
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
                 {settings.defaultPhone && (
                   <a
                     href={`tel:${settings.defaultPhone}`}
-                    className="flex items-center justify-center w-8 h-8 rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300"
+                    className="flex items-center justify-center w-7 h-7 rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300"
                     aria-label={`Skambinti ${settings.defaultPhone}`}
                   >
-                    <MdPhone size={16} />
+                    <MdPhone size={14} />
                   </a>
                 )}
                 {settings.defaultEmail && (
                   <a
                     href={`mailto:${settings.defaultEmail}`}
-                    className="flex items-center justify-center w-8 h-8 rounded-full border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-white transition-all duration-300"
+                    className="flex items-center justify-center w-7 h-7 rounded-full border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-white transition-all duration-300"
                     aria-label={`Rašyti ${settings.defaultEmail}`}
                   >
-                    <MdEmail size={16} />
+                    <MdEmail size={14} />
                   </a>
                 )}
               </div>

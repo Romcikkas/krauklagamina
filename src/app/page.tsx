@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section - Full Width, No Margins */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-4 sm:pt-0">
         {/* Background Image/Gradient - Full Width */}
         {/* <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 opacity-90"></div> */}
         <div className="absolute inset-0 bg-black/30"></div>
@@ -56,7 +56,7 @@ export default function Home() {
         />
 
         {/* Main Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 md:py-0">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -84,7 +84,7 @@ export default function Home() {
               </span>
               <br />
               <span className="text-3xl md:text-5xl font-light text-blue-100">
-                ir keliauk daugiau mokedamas maziau
+                ir keliauk daugiau mokėdamas mažiau
               </span>
             </motion.h1>
 

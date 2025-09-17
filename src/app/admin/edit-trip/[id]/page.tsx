@@ -117,7 +117,8 @@ export default function EditTrip() {
         return;
       }
 
-      const canvas = document.createElement("canvas");
+      const canvas = document.createElement("canvas");git log --oneline
+
       const ctx = canvas.getContext("2d");
       const img = document.createElement("img");
 
