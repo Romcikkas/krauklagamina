@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "offers": "Oferty podróży",
+    "contact": "Kontakt",
+    "admin": "Panel administratora",
+    "logout": "Wyloguj się"
+  },
+  "hero": {
+    "title": "Podróżuj z nami do najpiękniejszych zakątków świata",
+    "subtitle": "Profesjonalna organizacja podróży od 15 lat",
+    "cta": "Znajdź podróż",
+    "scrollDown": "Przewiń w dół"
+  },
+  "features": {
+    "title": "Dlaczego warto nas wybrać?",
+    "attractivePrices": {
+      "title": "Atrakcyjne ceny",
+      "description": "Dzięki wieloletniemu doświadczeniu i współpracy z partnerami oferujemy niskie ceny biletów lotniczych i hoteli"
+    },
+    "exoticDestinations": {
+      "title": "Egzotyczne kierunki",
+      "description": "Oferujemy podróże do najpiękniejszych zakątków świata, dostosowane do Twoich potrzeb i oczekiwań"
+    },
+    "fullSupport": {
+      "title": "Pełne wsparcie",
+      "description": "Zapewniamy kompleksową obsługę i pomoc na każdym etapie podróży"
+    }
+  },
+  "statistics": {
+    "happyClients": "Zadowolonych klientów",
+    "destinations": "Kierunków",
+    "yearsExperience": "Lat doświadczenia"
+  },
+  "about": {
+    "title": "O nas",
+    "description": "Jesteśmy zaufaną agencją podróży z ponad 15-letnim doświadczeniem w sektorze turystycznym. Naszym celem jest zapewnienie niezapomnianych doświadczeń podróżniczych."
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "address": "Adres",
+    "workingHours": "Godziny pracy",
+    "form": {
+      "name": "Imię",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "message": "Wiadomość",
+      "subject": "Temat",
+      "send": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Wiadomość została pomyślnie wysłana!",
+      "error": "Błąd podczas wysyłania wiadomości. Spróbuj ponownie."
+    }
+  },
+  "trips": {
+    "title": "Oferty podróży",
+    "searchPlaceholder": "Szukaj podróży...",
+    "filter": "Filtruj",
+    "sort": "Sortuj",
+    "priceFrom": "Cena od",
+    "priceTo": "Cena do",
+    "duration": "Czas trwania",
+    "category": "Kategoria",
+    "destination": "Kierunek",
+    "bookNow": "Zarezerwuj teraz",
+    "moreInfo": "Więcej informacji",
+    "days": "dni",
+    "nights": "noce",
+    "from": "od",
+    "person": "za osobę"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "tryAgain": "Spróbuj ponownie",
+    "close": "Zamknij",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "reset": "Resetuj",
+    "showMore": "Pokaż więcej",
+    "showLess": "Pokaż mniej"
+  },
+  "languages": {
+    "lithuanian": "Lietuvių",
+    "polish": "Polski",
+    "english": "English"
+  }
+}

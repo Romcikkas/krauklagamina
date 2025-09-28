@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "offers": "Travel Offers",
+    "contact": "Contact",
+    "admin": "Admin Panel",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Travel with us to the most beautiful corners of the world",
+    "subtitle": "Professional travel organization for 15 years",
+    "cta": "Find a trip",
+    "scrollDown": "Scroll down"
+  },
+  "features": {
+    "title": "Why choose us?",
+    "attractivePrices": {
+      "title": "Attractive prices",
+      "description": "Thanks to years of experience and cooperation with partners, we offer low prices for flights and hotels"
+    },
+    "exoticDestinations": {
+      "title": "Exotic destinations",
+      "description": "We offer trips to the most beautiful corners of the world, tailored to your needs and expectations"
+    },
+    "fullSupport": {
+      "title": "Full support",
+      "description": "We ensure comprehensive service and assistance at every stage of your journey"
+    }
+  },
+  "statistics": {
+    "happyClients": "Happy clients",
+    "destinations": "Destinations",
+    "yearsExperience": "Years of experience"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a trusted travel agency with over 15 years of experience in the tourism sector. Our goal is to provide you with unforgettable travel experiences."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "subject": "Subject",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    }
+  },
+  "trips": {
+    "title": "Travel Offers",
+    "searchPlaceholder": "Search trips...",
+    "filter": "Filter",
+    "sort": "Sort",
+    "priceFrom": "Price from",
+    "priceTo": "Price to",
+    "duration": "Duration",
+    "category": "Category",
+    "destination": "Destination",
+    "bookNow": "Book now",
+    "moreInfo": "More information",
+    "days": "days",
+    "nights": "nights",
+    "from": "from",
+    "person": "per person"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "tryAgain": "Try again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "languages": {
+    "lithuanian": "Lietuvių",
+    "polish": "Polski",
+    "english": "English"
+  }
+}

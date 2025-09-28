@@ -9,7 +9,6 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import useSWR from "swr";
 import { fetcher } from "../../lib/fetcher";
 import { ContactSettings } from "../../data/types";
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
@@ -77,17 +76,17 @@ export default function Header() {
               alt="krauklagamina Logo"
               width={163}
               height={120}
-              className="w-[100px] h-[68px] sm:w-[140px] sm:h-[98px] lg:w-[163px] lg:h-[115px] cursor-pointer hover:opacity-80 transition-opacity duration-200"
+              className="w-[75px] h-[51px] ml-2 sm:w-[105px] sm:h-[74px] lg:w-[106px] lg:h-[75px] cursor-pointer hover:opacity-80 transition-opacity duration-200"
             />
           </Link>
         </div>
         {/* Nav desktop */}
-        <nav className="hidden md:flex flex-1 lg:space-x-2 lg:ml-14 items-center gap-3 lg:gap-10 whitespace-nowrap mx-3 lg:mx-8">
+        <nav className="hidden md:flex flex-1 lg:space-x-2 lg:ml-14 items-center gap-3 lg:gap-5 whitespace-nowrap mx-3 lg:mx-8">
           {menuItems.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="text-black hover:text-gray-700 transition-colors lg:text-xl font-semibold tracking-wide"
+              className="text-black hover:text-gray-700 transition-colors lg:text-[18px] font-semibold tracking-wide"
               style={{ fontFamily: "Nunito, sans-serif" }}
             >
               {item.name}
@@ -102,21 +101,21 @@ export default function Header() {
               {settings.defaultPhone && (
                 <a
                   href={`tel:${settings.defaultPhone}`}
-                  className="group flex items-center justify-center w-10 h-10 rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300 hover:scale-105"
+                  className="group flex items-center justify-center w-8 h-8 rounded-full border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300 hover:scale-105"
                   aria-label={`Skambinti ${settings.defaultPhone}`}
                   title={settings.defaultPhone}
                 >
-                  <MdPhone size={20} />
+                  <MdPhone size={18} />
                 </a>
               )}
               {settings.defaultEmail && (
                 <a
                   href={`mailto:${settings.defaultEmail}`}
-                  className="group flex items-center justify-center w-10 h-10 rounded-full border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-white transition-all duration-300 hover:scale-105"
+                  className="group flex items-center justify-center w-8 h-8 rounded-full border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-white transition-all duration-300 hover:scale-105"
                   aria-label={`Rašyti ${settings.defaultEmail}`}
                   title={settings.defaultEmail}
                 >
-                  <MdEmail size={20} />
+                  <MdEmail size={18} />
                 </a>
               )}
               {/* Divider */}

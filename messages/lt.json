@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "home": "Pagrindinis",
+    "about": "Apie mus",
+    "offers": "Kelionių pasiūlymai",
+    "contact": "Kontaktai",
+    "admin": "Administratoriaus panelė",
+    "logout": "Atsijungti"
+  },
+  "hero": {
+    "title": "Keliauk su mumis į gražiausius pasaulio kampelius",
+    "subtitle": "Profesionalus kelionių organizavimas jau 15 metų",
+    "cta": "Rasti kelionę",
+    "scrollDown": "Slinkti žemyn"
+  },
+  "features": {
+    "title": "Kodėl pasirinkti mus?",
+    "attractivePrices": {
+      "title": "Patrauklios kainos",
+      "description": "Dėka daugiametės patirties ir bendradarbiavimo su partneriais siūlome žemas lėktuvų bilietų ir viešbučių kainas"
+    },
+    "exoticDestinations": {
+      "title": "Egzotiškos kryptys",
+      "description": "Siūlome keliones į gražiausius pasaulio kampelius, pritaikytus jūsų poreikiams ir lūkesčiams"
+    },
+    "fullSupport": {
+      "title": "Pilnas palaikymas",
+      "description": "Užtikriname visapusišką aptarnavimą ir pagalbą kiekviename kelionės etape"
+    }
+  },
+  "statistics": {
+    "happyClients": "Laimingų klientų",
+    "destinations": "Krypčių",
+    "yearsExperience": "Metų patirtis"
+  },
+  "about": {
+    "title": "Apie mus",
+    "description": "Mes esame patikima kelionių agentūra su daugiau nei 15 metų patirtimi turizmo sektorje. Mūsų tikslas - suteikti jums nepamirštamų kelionių patirčių."
+  },
+  "contact": {
+    "title": "Susisiekite su mumis",
+    "phone": "Telefonas",
+    "email": "El. paštas",
+    "address": "Adresas",
+    "workingHours": "Darbo laikas",
+    "form": {
+      "name": "Vardas",
+      "email": "El. paštas",
+      "phone": "Telefonas",
+      "message": "Žinutė",
+      "subject": "Tema",
+      "send": "Siųsti žinutę",
+      "sending": "Siunčiama...",
+      "success": "Žinutė sėkmingai išsiųsta!",
+      "error": "Klaida siunčiant žinutę. Bandykite dar kartą."
+    }
+  },
+  "trips": {
+    "title": "Kelionių pasiūlymai",
+    "searchPlaceholder": "Ieškoti kelionių...",
+    "filter": "Filtruoti",
+    "sort": "Rūšiuoti",
+    "priceFrom": "Kaina nuo",
+    "priceTo": "Kaina iki",
+    "duration": "Trukmė",
+    "category": "Kategorija",
+    "destination": "Kryptis",
+    "bookNow": "Užsakyti dabar",
+    "moreInfo": "Daugiau informacijos",
+    "days": "dienų",
+    "nights": "naktų",
+    "from": "nuo",
+    "person": "asmeniui"
+  },
+  "common": {
+    "loading": "Kraunama...",
+    "error": "Klaida",
+    "tryAgain": "Bandyti dar kartą",
+    "close": "Uždaryti",
+    "save": "Išsaugoti",
+    "cancel": "Atšaukti",
+    "edit": "Redaguoti",
+    "delete": "Ištrinti",
+    "search": "Ieškoti",
+    "filter": "Filtruoti",
+    "reset": "Atstatyti",
+    "showMore": "Rodyti daugiau",
+    "showLess": "Rodyti mažiau"
+  },
+  "languages": {
+    "lithuanian": "Lietuvių",
+    "polish": "Polski",
+    "english": "English"
+  }
+}

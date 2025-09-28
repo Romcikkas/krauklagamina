@@ -195,7 +195,7 @@ ${formData.message}`);
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-lg p-8">
+          {/* <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-8">
               Parašykite mums
             </h2>
@@ -302,7 +302,7 @@ ${formData.message}`);
                 Siųsti žinutę
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Working Hours */}

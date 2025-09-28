@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section - Full Width, No Margins */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-4 sm:pt-0">
+      <section className="relative min-h-[82vh] flex items-center justify-center overflow-hidden pt-4 sm:pt-0">
         {/* Background Image/Gradient - Full Width */}
         {/* <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 opacity-90"></div> */}
         <div className="absolute inset-0 bg-black/30"></div>
@@ -56,7 +56,7 @@ export default function Home() {
         />
 
         {/* Main Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 md:py-0">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 md:py-0">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ export default function Home() {
 
             {/* Main Heading */}
             <motion.h1
-              className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
+              className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
@@ -83,20 +83,19 @@ export default function Home() {
                 Krauk lagaminą
               </span>
               <br />
-              <span className="text-3xl md:text-5xl font-light text-blue-100">
+              <span className="text-2xl md:text-3xl lg:text-5xl font-light text-blue-100">
                 ir keliauk daugiau mokėdamas mažiau
               </span>
             </motion.h1>
 
             {/* Subtitle */}
             <motion.p
-              className="text-xl md:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto leading-relaxed"
+              className="text-lg md:text-xl lg:text-2xl text-blue-100 mb-12 max-w-3xl mx-auto leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              Atrask nepamirštamas keliones po visą pasaulį su mūsų ekspertų
-              komanda. Geriausi pasiūlymai, profesionalus aptarnavimas.
+              Jūsų patikima kelionių agentūra – geriausios kainos garantija.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -128,7 +127,7 @@ export default function Home() {
 
             {/* Stats */}
             <motion.div
-              className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
+              className="grid grid-cols-3 gap-8 max-w-4xl mx-auto"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2 }}
@@ -157,7 +156,7 @@ export default function Home() {
                 <div className="text-blue-200 text-sm">Šalių</div>
               </div>
 
-              <div className="text-center">
+              {/* <div className="text-center">
                 <motion.div
                   className="text-3xl md:text-4xl font-bold text-white mb-2"
                   initial={{ opacity: 0, scale: 0.5 }}
@@ -167,7 +166,7 @@ export default function Home() {
                   5+
                 </motion.div>
                 <div className="text-blue-200 text-sm">Metų patirtis</div>
-              </div>
+              </div> */}
 
               <div className="text-center">
                 <motion.div
@@ -181,25 +180,26 @@ export default function Home() {
                 <div className="text-blue-200 text-sm">Palaikymas</div>
               </div>
             </motion.div>
+
+            {/* Scroll Indicator */}
+            <div className="flex justify-center mt-2">
+              <motion.div
+                animate={{
+                  y: [0, 10, 0],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              >
+                <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
+                  <div className="w-1 h-3 bg-white/70 rounded-full mt-2"></div>
+                </div>
+              </motion.div>
+            </div>
           </motion.div>
         </div>
-
-        {/* Scroll Indicator */}
-        <motion.div
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-          animate={{
-            y: [0, 10, 0],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-        >
-          <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-white/70 rounded-full mt-2"></div>
-          </div>
-        </motion.div>
       </section>
 
       {/* Features Section */}
