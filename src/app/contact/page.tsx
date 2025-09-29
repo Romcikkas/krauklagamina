@@ -31,6 +31,7 @@ export default function ContactPage() {
     message: "",
   });
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -41,6 +42,7 @@ export default function ContactPage() {
     }));
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 

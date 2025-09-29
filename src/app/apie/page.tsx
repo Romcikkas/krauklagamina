@@ -1,17 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import {
   MdTravelExplore,
   MdLocationOn,
   MdPeople,
-  MdStar,
   MdSupport,
   MdVerified,
   MdTrendingUp,
 } from "react-icons/md";
-import { FaAward, FaGlobeEurope, FaHandshake, FaHeart } from "react-icons/fa";
+import { FaHandshake, FaHeart } from "react-icons/fa";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const teamMembers = [
