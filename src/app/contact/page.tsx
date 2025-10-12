@@ -308,7 +308,7 @@ ${formData.message}`);
         </div>
 
         {/* Working Hours */}
-        <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
+        {/* <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             Darbo laikas
           </h2>
@@ -332,7 +332,7 @@ ${formData.message}`);
               <p className="text-gray-600">Nedirbame</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
