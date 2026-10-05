@@ -3,9 +3,10 @@
 import { useState } from "react";
 import { ContactSettings } from "../../data/types";
 import { MdPhone, MdEmail } from "react-icons/md";
-import { FaFacebook, FaInstagram, FaMapPin } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import useSWR from "swr";
 import { fetcher } from "../../lib/fetcher";
+import { useTranslations } from "../../contexts/LanguageContext";
 
 interface FormData {
   name: string;
@@ -16,6 +17,8 @@ interface FormData {
 }
 
 export default function ContactPage() {
+  const t = useTranslations("contact");
+
   // Fetch contact settings
   const { data: settings, isLoading } = useSWR<ContactSettings>(
     "/api/contact-settings",
@@ -79,7 +82,7 @@ ${formData.message}`);
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mb-4"></div>
-          <p className="text-gray-600">Kraunami kontaktai...</p>
+          <p className="text-gray-600">{t("loading")}</p>
         </div>
       </div>
     );
@@ -92,11 +95,10 @@ ${formData.message}`);
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              Susisiekite su mumis
+              {t("title")}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Turime klausimų dėl kelionių? Susisiekite su mumis bet kuriuo
-              patogiu būdu!
+              {t("subtitle")}
             </p>
           </div>
         </div>
@@ -108,7 +110,7 @@ ${formData.message}`);
           {/* Contact Details */}
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Kontaktinė informacija
+              {t("pageTitle")}
             </h2>
 
             <div className="space-y-6">
@@ -119,7 +121,7 @@ ${formData.message}`);
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">
-                    Telefonas
+                    {t("phone")}
                   </h3>
                   <a
                     href={`tel:${settings?.defaultPhone}`}
@@ -137,7 +139,7 @@ ${formData.message}`);
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">
-                    El. paštas
+                    {t("email")}
                   </h3>
                   <a
                     href={`mailto:${settings?.defaultEmail}`}
@@ -149,27 +151,27 @@ ${formData.message}`);
               </div>
 
               {/* Address */}
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
                   <FaMapPin className="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">
-                    Adresas
+                    {t("address")}
                   </h3>
                   <p className="text-gray-600">
-                    Vilniaus g. 123
+                    {t("addressValue").split(", ")[0]}
                     <br />
-                    01234 Vilnius, Lietuva
+                    {t("addressValue").split(", ").slice(1).join(", ")}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Social Media */}
             <div className="mt-8 pt-8 border-t border-gray-200">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                Sekite mus socialiniuose tinkluose
+                {t("socialMediaTitle")}
               </h3>
               <div className="flex space-x-4">
                 {settings?.defaultFacebook && (
@@ -317,7 +319,7 @@ ${formData.message}`);
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Pirmadienis - Penktadienis
               </h3>
-              <p className="text-gray-600">9:00 - 18:00</p>
+              <p className="text-gray-600">09:00 - 18:00</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">

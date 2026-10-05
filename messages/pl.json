@@ -2,48 +2,112 @@
   "navigation": {
     "home": "Strona główna",
     "about": "O nas",
-    "offers": "Oferty podróży",
+    "offers": "Oferty wycieczek",
     "contact": "Kontakt",
     "admin": "Panel administratora",
-    "logout": "Wyloguj się"
+    "logout": "Wyloguj się",
+    "adminBadge": "Admin",
+    "adminPanel": "Panel"
   },
   "hero": {
-    "title": "Podróżuj z nami do najpiękniejszych zakątków świata",
-    "subtitle": "Profesjonalna organizacja podróży od 15 lat",
-    "cta": "Znajdź podróż",
-    "scrollDown": "Przewiń w dół"
+    "badge": "Niezawodny partner podróży",
+    "title": "Pakuj walizkę",
+    "subtitle": "i podróżuj więcej płacąc mniej",
+    "description": "Twoja zaufana agencja turystyczna – gwarancja najlepszej ceny.",
+    "ctaPrimary": "Zobacz wycieczki",
+    "ctaSecondary": "Skontaktuj się z nami"
   },
   "features": {
     "title": "Dlaczego warto nas wybrać?",
+    "subtitle": "Nasz zespół zapewnia, że Twoja podróż będzie nie tylko bezpieczna, ale i niezapomniana",
     "attractivePrices": {
       "title": "Atrakcyjne ceny",
       "description": "Dzięki wieloletniemu doświadczeniu i współpracy z partnerami oferujemy niskie ceny biletów lotniczych i hoteli"
     },
     "exoticDestinations": {
       "title": "Egzotyczne kierunki",
-      "description": "Oferujemy podróże do najpiękniejszych zakątków świata, dostosowane do Twoich potrzeb i oczekiwań"
+      "description": "Oferujemy wycieczki do najpiękniejszych zakątków świata, dostosowane do Twoich potrzeb i oczekiwań."
     },
     "fullSupport": {
       "title": "Pełne wsparcie",
-      "description": "Zapewniamy kompleksową obsługę i pomoc na każdym etapie podróży"
+      "description": "Zapewniamy kompleksową obsługę i pomoc na każdym etapie podróży."
     }
   },
   "statistics": {
     "happyClients": "Zadowolonych klientów",
-    "destinations": "Kierunków",
-    "yearsExperience": "Lat doświadczenia"
+    "happyClientsCount": "500+",
+    "countries": "Krajów",
+    "countriesCount": "50+",
+    "support": "Wsparcie",
+    "supportCount": "24/7"
   },
   "about": {
     "title": "O nas",
-    "description": "Jesteśmy zaufaną agencją podróży z ponad 15-letnim doświadczeniem w sektorze turystycznym. Naszym celem jest zapewnienie niezapomnianych doświadczeń podróżniczych."
+    "description": "Jesteśmy zaufaną agencją turystyczną z ponad 15-letnim doświadczeniem w sektorze turystyki. Naszym celem jest zapewnienie niezapomnianych doświadczeń podróżniczych.",
+    "page": {
+      "badge": "Twoi partnerzy podróży od 2016 roku",
+      "title": "O nas",
+      "subtitle": "Twój partner podróży, który wierzy, że podróże zmieniają życie ludzi. Naszą misją jest pomóc Ci odkryć świat i stworzyć niezapomniane wspomnienia.",
+      "storyTitle": "Nasza historia",
+      "storyParagraph1": "Nasza agencja turystyczna narodziła się z wielkiej pasji do podróży i chęci dzielenia się wyjątkowymi doświadczeniami z innymi. Założyliśmy firmę z celem – pomóc ludziom odkrywać świat wygodnie, bezpiecznie i po najlepszych cenach.",
+      "storyParagraph2": "Każda podróż dla nas to nie tylko praca, ale także okazja do tworzenia wspomnień, które pozostają na całe życie. Od pierwszego dnia chcieliśmy, aby nasi klienci czuli się nie tylko jako podróżnicy, ale także jako nasi partnerzy w tej przygodzie. Ta pasja i zaangażowanie to nadal nasza główna wartość i siła napędowa.",
+      "valuesTitle": "Nasze wartości",
+      "valuesSubtitle": "Te wartości kształtują wszystkie nasze działania i relacje z klientami",
+      "reliability": {
+        "title": "Niezawodność",
+        "description": "Dotrzymujemy wszystkich obietnic i zapewniamy usługi najwyższej jakości."
+      },
+      "passion": {
+        "title": "Pasja do podróży",
+        "description": "Członkowie naszego zespołu to prawdziwi entuzjaści podróży, którzy kochają to, co robią."
+      },
+      "improvement": {
+        "title": "Ciągłe doskonalenie",
+        "description": "Zawsze szukamy nowych sposobów na poprawę naszych usług i doświadczeń klientów."
+      },
+      "individual": {
+        "title": "Indywidualne podejście",
+        "description": "Każda podróż to unikalny projekt dostosowany do Twoich potrzeb."
+      },
+      "ctaTitle": "Gotowy na podróż?",
+      "ctaSubtitle": "Skontaktuj się z nami i zacznijmy planować Twoją niezapomnianą podróż już dziś!",
+      "ctaViewOffers": "Zobacz oferty",
+      "ctaContact": "Skontaktuj się z nami"
+    }
+  },
+  "footer": {
+    "companyName": "Krauk lagaminą",
+    "companyDescription": "Twój zaufany partner podróży. Planujemy niezapomniane wycieczki po całym świecie.",
+    "companyDetailsTitle": "Dane firmy",
+    "companyCodeLabel": "Kod firmy",
+    "companyCode": "307536822",
+    "address": "Adres",
+    "addressValue": "Perkūnkiemio 49, LT12144 Wilno",
+    "workingHours": "Godziny pracy",
+    "workingHoursWeekdays": "Pn–Pt 09:00–18:00",
+    "workingHoursSaturday": "Sob 10:00–16:00",
+    "followUsTitle": "Śledź nas",
+    "copyright": "Krauk lagaminą. Wszelkie prawa zastrzeżone."
   },
   "contact": {
     "title": "Skontaktuj się z nami",
+    "subtitle": "Masz pytania dotyczące wycieczek? Skontaktuj się z nami w dowolny wygodny sposób!",
+    "pageTitle": "Informacje kontaktowe",
     "phone": "Telefon",
     "email": "E-mail",
     "address": "Adres",
+    "addressValue": "Perkūnkiemio 49, LT12144 Wilno",
+    "companyCodeLabel": "Kod firmy",
+    "companyCode": "307536822",
     "workingHours": "Godziny pracy",
+    "workingHoursWeekdays": "Pn–Pt 09:00–18:00",
+    "workingHoursSaturday": "Sob 10:00–16:00",
+    "socialMediaTitle": "Śledź nas w mediach społecznościowych",
+    "contactUsInHeader": "Skontaktuj się z nami",
+    "followUs": "Śledź nas:",
+    "loading": "Ładowanie kontaktów...",
     "form": {
+      "title": "Napisz do nas",
       "name": "Imię",
       "email": "E-mail",
       "phone": "Telefon",
@@ -51,13 +115,20 @@
       "subject": "Temat",
       "send": "Wyślij wiadomość",
       "sending": "Wysyłanie...",
-      "success": "Wiadomość została pomyślnie wysłana!",
-      "error": "Błąd podczas wysyłania wiadomości. Spróbuj ponownie."
+      "success": "Wiadomość wysłana pomyślnie!",
+      "error": "Błąd podczas wysyłania wiadomości. Spróbuj ponownie.",
+      "namePlaceholder": "Twoje imię",
+      "emailPlaceholder": "twoj@gmail.com",
+      "phonePlaceholder": "+48 600 12345",
+      "subjectPlaceholder": "Pytanie o wycieczkę",
+      "messagePlaceholder": "Napisz swoje pytanie...",
+      "required": "*"
     }
   },
   "trips": {
-    "title": "Oferty podróży",
-    "searchPlaceholder": "Szukaj podróży...",
+    "title": "Oferty wycieczek",
+    "subtitle": "Znajdź swoją idealną wycieczkę z naszych starannie wyselekcjonowanych ofert",
+    "searchPlaceholder": "Szukaj wycieczek...",
     "filter": "Filtruj",
     "sort": "Sortuj",
     "priceFrom": "Cena od",
@@ -67,10 +138,70 @@
     "destination": "Kierunek",
     "bookNow": "Zarezerwuj teraz",
     "moreInfo": "Więcej informacji",
+    "showing": "Pokazano",
+    "of": "z",
+    "trips": "wycieczek",
+    "showPerPage": "Pokaż po:",
     "days": "dni",
-    "nights": "noce",
+    "nights": "nocy",
     "from": "od",
-    "person": "za osobę"
+    "person": "od osoby",
+    "loading": "Ładowanie wycieczek...",
+    "noTrips": "Brak dostępnych wycieczek",
+    "perPerson": "/os.",
+    "viewDetails": "Zobacz",
+    "view": "Zobacz",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "deleting": "Usuwanie...",
+    "badges": {
+      "exotic": "Egzotyczna wycieczka",
+      "dailyPrice": "Cena dnia",
+      "lastMinute": "Last Minute",
+      "popular": "Popularny",
+      "allInclusive": "All Inclusive"
+    },
+    "transportFilters": {
+      "all": "Wszystkie podróże",
+      "bus": "Wycieczki autokarem",
+      "fly": "Wycieczki samolotem"
+    },
+    "grudaConsent": {
+      "modalTitle": "Plugin strony trzeciej",
+      "notice": "W tej sekcji wyświetlany jest plugin wyszukiwania podróży strony trzeciej. Używa plików cookie stron trzecich (analityka, marketing). Klikając „Zgadzam się”, × lub poza tym oknem, wyrażasz zgodę na pliki cookie tego pluginu.",
+      "closeAgreeLabel": "Zgadzam się i zamknij",
+      "privacyLinkLabel": "Polityka prywatności strony trzeciej",
+      "accept": "Zgadzam się",
+      "decline": "Nie zgadzam się",
+      "declinedMessage": "Wyszukiwarka strony trzeciej jest wyłączona. Poniżej widzisz nasze oferty.",
+      "changeChoice": "Włącz wyszukiwarkę strony trzeciej",
+      "previewHint": "Podgląd — pełne wyszukiwanie ładuje się po zgodzie na pliki cookie pluginu."
+    },
+    "categories": {
+      "Prabangus": "Luksusowy",
+      "Standartinis": "Standardowy",
+      "Ekonominis": "Ekonomiczny",
+      "Vidutinis": "Średni",
+      "Aukštos klasės": "Wysokiej klasy"
+    },
+    "modal": {
+      "departureDate": "Data wyjazdu:",
+      "duration": "Czas trwania:",
+      "hotel": "Hotel",
+      "rating": "Ocena",
+      "description": "Opis",
+      "additionalFeatures": "Dodatkowe udogodnienia",
+      "price": "Cena",
+      "was": "Było:",
+      "contactForReservation": "💬 Skontaktuj się w sprawie rezerwacji",
+      "workingHours": "Dni robocze 9:00-18:00",
+      "responseTime": "Odpowiemy w ciągu 24h",
+      "followSocial": "Śledź nas w mediach społecznościowych",
+      "additionalInfo": "Dodatkowe informacje",
+      "flight": "Lot:",
+      "baggage": "Bagaż:",
+      "busTravel": "Podróż autobusem:"
+    }
   },
   "common": {
     "loading": "Ładowanie...",
@@ -87,9 +218,40 @@
     "showMore": "Pokaż więcej",
     "showLess": "Pokaż mniej"
   },
+  "months": {
+    "sausio": "stycznia",
+    "vasario": "lutego",
+    "kovo": "marca",
+    "balandžio": "kwietnia",
+    "gegužės": "maja",
+    "birželio": "czerwca",
+    "liepos": "lipca",
+    "rugpjūčio": "sierpnia",
+    "rugsėjo": "września",
+    "spalio": "października",
+    "lapkričio": "listopada",
+    "gruodžio": "grudnia"
+  },
   "languages": {
-    "lithuanian": "Lietuvių",
+    "lithuanian": "Litewski",
     "polish": "Polski",
-    "english": "English"
+    "english": "Angielski"
+  },
+  "tripFeatures": {
+    "Baseinas su šildomu vandeniu": "Podgrzewany basen",
+    "Nemokamas WiFi": "Darmowe WiFi",
+    "Oro kondicionierius": "Klimatyzacja",
+    "Restoranas": "Restauracja",
+    "Vandenyno vaizdas iš kambario": "Widok na ocean z pokoju",
+    "Baseinas su saulės terasomis": "Basen z tarasami słonecznymi",
+    "Pusryčiai ir vakarienė": "Śniadanie i kolacja",
+    "Autobusų stotelė šalia": "Przystanek autobusowy w pobliżu",
+    "Paplūdimys už 200m": "Plaża w odległości 200m",
+    "Prabangūs apartamentai": "Luksusowe apartamenty",
+    "Privatus koralų rifas": "Prywatna rafa koralowa",
+    "5 restoranai ir 4 barai": "5 restauracji i 4 bary",
+    "Nardymo centras": "Centrum nurkowania",
+    "Golfas netoliese": "Golf w pobliżu",
+    "Spa ir masažo procedūros": "Spa i masaże"
   }
 }

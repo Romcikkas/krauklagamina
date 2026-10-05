@@ -36,6 +36,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.kelioniulaikas.lt",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

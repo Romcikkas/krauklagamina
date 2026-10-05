@@ -10,21 +10,27 @@ import useSWR from "swr";
 import { fetcher } from "../../../lib/fetcher";
 
 export default function AddTrip() {
-  const { isAdmin } = useAuth();
+  const { isAdmin, isLoading: authLoading } = useAuth();
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [imagePreview, setImagePreview] = useState<string>("");
+  const [activeLanguageTab, setActiveLanguageTab] = useState<
+    "lt" | "en" | "pl"
+  >("lt");
 
   // Use SWR for contact settings
   const { data: contactSettings } = useSWR<ContactSettings>(
     isAdmin ? "/api/contact-settings" : null,
-    fetcher
+    fetcher,
   );
 
   // Form state
   const [formData, setFormData] = useState<Omit<Trip, "id">>({
     destination: "",
+    destinationLt: "",
+    destinationEn: "",
+    destinationPl: "",
     date: "",
     duration: "",
     hotelName: "",
@@ -32,14 +38,29 @@ export default function AddTrip() {
     rating: 0,
     category: "",
     description: "",
+    descriptionLt: "",
+    descriptionEn: "",
+    descriptionPl: "",
     currentPrice: 0,
     originalPrice: undefined,
     image: "",
     badges: [],
     additionalFeatures: [],
+    additionalFeaturesLt: [],
+    additionalFeaturesEn: [],
+    additionalFeaturesPl: [],
     flightInfo: "Iš Vilniaus oro uosto",
+    flightInfoLt: "",
+    flightInfoEn: "",
+    flightInfoPl: "",
     baggage: "20kg registruotas bagažas",
+    baggageLt: "",
+    baggageEn: "",
+    baggagePl: "",
     busTravel: "",
+    busTravelLt: "",
+    busTravelEn: "",
+    busTravelPl: "",
     insurance: "Kelionių draudimas įskaičiuotas",
     phoneNumber: contactSettings?.defaultPhone || "",
     email: contactSettings?.defaultEmail || "",
@@ -60,19 +81,28 @@ export default function AddTrip() {
     }
   }, [contactSettings]);
 
+  useEffect(() => {
+    if (!authLoading && !isAdmin) {
+      router.push("/admin/login");
+    }
+  }, [authLoading, isAdmin, router]);
+
+  if (authLoading) {
+    return <div>Kraunama...</div>;
+  }
+
   if (!isAdmin) {
-    router.push("/admin/login");
     return <div>Kraunama...</div>;
   }
 
   // Image compression function
   const compressImage = (
     file: File,
-    maxSizeKB: number = 80
+    maxSizeKB: number = 80,
   ): Promise<string> => {
     return new Promise((resolve) => {
-      if (typeof window === 'undefined') {
-        resolve(''); // Return empty string on server
+      if (typeof window === "undefined") {
+        resolve(""); // Return empty string on server
         return;
       }
 
@@ -148,7 +178,7 @@ export default function AddTrip() {
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
+    >,
   ) => {
     const { name, value, type } = e.target;
     setFormData((prev) => ({
@@ -166,12 +196,17 @@ export default function AddTrip() {
     }));
   };
 
-  const handleFeatureChange = (index: number, value: string) => {
+  const handleFeatureChange = (
+    index: number,
+    value: string,
+    lang: "Lt" | "En" | "Pl",
+  ) => {
+    const fieldName = `additionalFeatures${lang}` as keyof typeof formData;
     setFormData((prev) => ({
       ...prev,
-      additionalFeatures:
-        prev.additionalFeatures?.map((feature, i) =>
-          i === index ? value : feature
+      [fieldName]:
+        (prev[fieldName] as string[])?.map((feature, i) =>
+          i === index ? value : feature,
         ) || [],
     }));
   };
@@ -179,15 +214,21 @@ export default function AddTrip() {
   const addFeature = () => {
     setFormData((prev) => ({
       ...prev,
-      additionalFeatures: [...(prev.additionalFeatures || []), ""],
+      additionalFeaturesLt: [...(prev.additionalFeaturesLt || []), ""],
+      additionalFeaturesEn: [...(prev.additionalFeaturesEn || []), ""],
+      additionalFeaturesPl: [...(prev.additionalFeaturesPl || []), ""],
     }));
   };
 
   const removeFeature = (index: number) => {
     setFormData((prev) => ({
       ...prev,
-      additionalFeatures:
-        prev.additionalFeatures?.filter((_, i) => i !== index) || [],
+      additionalFeaturesLt:
+        prev.additionalFeaturesLt?.filter((_, i) => i !== index) || [],
+      additionalFeaturesEn:
+        prev.additionalFeaturesEn?.filter((_, i) => i !== index) || [],
+      additionalFeaturesPl:
+        prev.additionalFeaturesPl?.filter((_, i) => i !== index) || [],
     }));
   };
 
@@ -196,12 +237,24 @@ export default function AddTrip() {
     setIsLoading(true);
 
     try {
+      // Ensure backward compatibility: set destination, description, flightInfo, baggage, busTravel and additionalFeatures to LT versions
+      const submitData = {
+        ...formData,
+        destination: formData.destinationLt || formData.destination,
+        description: formData.descriptionLt || formData.description,
+        flightInfo: formData.flightInfoLt || formData.flightInfo,
+        baggage: formData.baggageLt || formData.baggage,
+        busTravel: formData.busTravelLt || formData.busTravel,
+        additionalFeatures:
+          formData.additionalFeaturesLt || formData.additionalFeatures,
+      };
+
       const response = await fetch("/api/trips", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(submitData),
       });
 
       if (!response.ok) {
@@ -217,6 +270,9 @@ export default function AddTrip() {
       // Reset form
       setFormData({
         destination: "",
+        destinationLt: "",
+        destinationEn: "",
+        destinationPl: "",
         date: "",
         duration: "",
         hotelName: "",
@@ -224,14 +280,29 @@ export default function AddTrip() {
         rating: 0,
         category: "",
         description: "",
+        descriptionLt: "",
+        descriptionEn: "",
+        descriptionPl: "",
         currentPrice: 0,
         originalPrice: undefined,
         image: "",
         badges: [],
         additionalFeatures: [],
+        additionalFeaturesLt: [],
+        additionalFeaturesEn: [],
+        additionalFeaturesPl: [],
         flightInfo: "Iš Vilniaus oro uosto",
+        flightInfoLt: "",
+        flightInfoEn: "",
+        flightInfoPl: "",
         baggage: "20kg registruotas bagažas",
+        baggageLt: "",
+        baggageEn: "",
+        baggagePl: "",
         busTravel: "",
+        busTravelLt: "",
+        busTravelEn: "",
+        busTravelPl: "",
         insurance: "Kelionių draudimas įskaičiuotas",
         phoneNumber: contactSettings?.defaultPhone || "",
         email: contactSettings?.defaultEmail || "",
@@ -239,8 +310,7 @@ export default function AddTrip() {
         instagram: contactSettings?.defaultInstagram || "",
       });
       setImagePreview("");
-    } catch (error) {
-      console.error("Klaida išsaugant kelionę:", error);
+    } catch {
       setIsLoading(false);
       alert("Klaida išsaugant kelionę. Bandykite dar kartą.");
     }
@@ -294,23 +364,103 @@ export default function AddTrip() {
           onSubmit={handleSubmit}
           className="bg-white rounded-lg shadow-md p-6 space-y-6"
         >
-          {/* Pagrindinė informacija */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Kelionės kryptis *
-              </label>
-              <input
-                type="text"
-                name="destination"
-                value={formData.destination}
-                onChange={handleInputChange}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="pvz. Turkija"
-                required
-              />
+          {/* Language Switcher - Single location at top right of form */}
+          <div className="flex justify-end">
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => setActiveLanguageTab("lt")}
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                  activeLanguageTab === "lt"
+                    ? "bg-blue-600 text-white shadow-md"
+                    : "bg-white text-gray-700 hover:bg-gray-100 border border-gray-300"
+                }`}
+              >
+                🇱🇹 Lietuvių
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveLanguageTab("en")}
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                  activeLanguageTab === "en"
+                    ? "bg-blue-600 text-white shadow-md"
+                    : "bg-white text-gray-700 hover:bg-gray-100 border border-gray-300"
+                }`}
+              >
+                🇬🇧 English
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveLanguageTab("pl")}
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                  activeLanguageTab === "pl"
+                    ? "bg-blue-600 text-white shadow-md"
+                    : "bg-white text-gray-700 hover:bg-gray-100 border border-gray-300"
+                }`}
+              >
+                🇵🇱 Polski
+              </button>
             </div>
+          </div>
+          {/* Pagrindinė informacija */}
+          {/* Kelionės kryptis */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">
+              Kelionės kryptis
+            </h3>
 
+            {activeLanguageTab === "lt" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lietuvių kalba *
+                </label>
+                <input
+                  type="text"
+                  name="destinationLt"
+                  value={formData.destinationLt}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="pvz. Turkija"
+                  required
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "en" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Anglų kalba
+                </label>
+                <input
+                  type="text"
+                  name="destinationEn"
+                  value={formData.destinationEn || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="e.g. Turkey"
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "pl" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lenkų kalba
+                </label>
+                <input
+                  type="text"
+                  name="destinationPl"
+                  value={formData.destinationPl || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="np. Turcja"
+                />
+              </div>
+            )}
+          </div>
+
+          {/* Kita informacija */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Data *
@@ -318,7 +468,7 @@ export default function AddTrip() {
               <input
                 type="text"
                 name="date"
-                value={formData.date}
+                value={formData.date ?? ""}
                 onChange={handleInputChange}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="pvz. 2025 rugsėjo 17-24"
@@ -333,7 +483,7 @@ export default function AddTrip() {
               <input
                 type="text"
                 name="duration"
-                value={formData.duration}
+                value={formData.duration ?? ""}
                 onChange={handleInputChange}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="pvz. 7 n."
@@ -407,21 +557,62 @@ export default function AddTrip() {
                 <option value="Prabangus">Prabangus</option>
               </select>
             </div>
+          </div>
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Aprašymas
-              </label>
-              <textarea
-                name="description"
-                value={formData.description || ""}
-                onChange={handleInputChange}
-                rows={3}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-vertical"
-                placeholder="Trumpas kelionės aprašymas..."
-              />
-            </div>
+          {/* Aprašymas */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Aprašymas</h3>
 
+            {activeLanguageTab === "lt" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lietuvių kalba
+                </label>
+                <textarea
+                  name="descriptionLt"
+                  value={formData.descriptionLt || ""}
+                  onChange={handleInputChange}
+                  rows={3}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-vertical"
+                  placeholder="Trumpas kelionės aprašymas..."
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "en" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Anglų kalba
+                </label>
+                <textarea
+                  name="descriptionEn"
+                  value={formData.descriptionEn || ""}
+                  onChange={handleInputChange}
+                  rows={3}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-vertical"
+                  placeholder="Brief trip description..."
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "pl" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lenkų kalba
+                </label>
+                <textarea
+                  name="descriptionPl"
+                  value={formData.descriptionPl || ""}
+                  onChange={handleInputChange}
+                  rows={3}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 resize-vertical"
+                  placeholder="Krótki opis wycieczki..."
+                />
+              </div>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Nuotrauka *
@@ -463,6 +654,8 @@ export default function AddTrip() {
                 onChange={handleInputChange}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 placeholder="285"
+                min="1"
+                step="1"
                 required
               />
             </div>
@@ -505,27 +698,79 @@ export default function AddTrip() {
           </div>
 
           {/* Papildomi patogumai */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-3">
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">
               Papildomi patogumai
-            </label>
-            <div className="space-y-2">
-              {formData.additionalFeatures?.map((feature, index) => (
-                <div key={index} className="flex gap-2">
-                  <input
-                    type="text"
-                    value={feature}
-                    onChange={(e) => handleFeatureChange(index, e.target.value)}
-                    className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Įveskite patogumą"
-                  />
-                  <button
-                    type="button"
-                    onClick={() => removeFeature(index)}
-                    className="px-3 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
-                  >
-                    ✕
-                  </button>
+            </h3>
+            <div className="space-y-6">
+              {formData.additionalFeaturesLt?.map((_, index) => (
+                <div
+                  key={index}
+                  className="border border-gray-200 rounded-lg p-4 space-y-3"
+                >
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-sm font-medium text-gray-700">
+                      Patogumas #{index + 1}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => removeFeature(index)}
+                      className="px-3 py-1 bg-red-500 text-white rounded-md hover:bg-red-600 text-sm"
+                    >
+                      ✕ Ištrinti
+                    </button>
+                  </div>
+
+                  {activeLanguageTab === "lt" && (
+                    <div>
+                      <label className="block text-sm font-medium text-gray-600 mb-1">
+                        Lietuvių kalba *
+                      </label>
+                      <input
+                        type="text"
+                        value={formData.additionalFeaturesLt?.[index] || ""}
+                        onChange={(e) =>
+                          handleFeatureChange(index, e.target.value, "Lt")
+                        }
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="pvz. Baseinas su šildomu vandeniu"
+                      />
+                    </div>
+                  )}
+
+                  {activeLanguageTab === "en" && (
+                    <div>
+                      <label className="block text-sm font-medium text-gray-600 mb-1">
+                        Anglų kalba
+                      </label>
+                      <input
+                        type="text"
+                        value={formData.additionalFeaturesEn?.[index] || ""}
+                        onChange={(e) =>
+                          handleFeatureChange(index, e.target.value, "En")
+                        }
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="e.g. Heated swimming pool"
+                      />
+                    </div>
+                  )}
+
+                  {activeLanguageTab === "pl" && (
+                    <div>
+                      <label className="block text-sm font-medium text-gray-600 mb-1">
+                        Lenkų kalba
+                      </label>
+                      <input
+                        type="text"
+                        value={formData.additionalFeaturesPl?.[index] || ""}
+                        onChange={(e) =>
+                          handleFeatureChange(index, e.target.value, "Pl")
+                        }
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="np. Basen z podgrzewaną wodą"
+                      />
+                    </div>
+                  )}
                 </div>
               ))}
               <button
@@ -600,49 +845,169 @@ export default function AddTrip() {
             </div>
           </div>
 
-          {/* Skrydžiai, Bagažas ir Autobusas */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Skrydis
-              </label>
-              <input
-                type="text"
-                name="flightInfo"
-                value={formData.flightInfo || ""}
-                onChange={handleInputChange}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Iš Vilniaus oro uosto"
-              />
-            </div>
+          {/* Skrydis */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">
+              Skrydžio informacija
+            </h3>
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Bagažas
-              </label>
-              <input
-                type="text"
-                name="baggage"
-                value={formData.baggage || ""}
-                onChange={handleInputChange}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="20kg registruotas bagažas"
-              />
-            </div>
+            {activeLanguageTab === "lt" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lietuvių kalba
+                </label>
+                <input
+                  type="text"
+                  name="flightInfoLt"
+                  value={formData.flightInfoLt || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Iš Vilniaus oro uosto"
+                />
+              </div>
+            )}
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Kelionė autobusu
-              </label>
-              <input
-                type="text"
-                name="busTravel"
-                value={formData.busTravel || ""}
-                onChange={handleInputChange}
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Išvykimas iš Vilniaus"
-              />
-            </div>
+            {activeLanguageTab === "en" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Anglų kalba
+                </label>
+                <input
+                  type="text"
+                  name="flightInfoEn"
+                  value={formData.flightInfoEn || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="From Vilnius airport"
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "pl" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lenkų kalba
+                </label>
+                <input
+                  type="text"
+                  name="flightInfoPl"
+                  value={formData.flightInfoPl || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Z lotniska w Wilnie"
+                />
+              </div>
+            )}
+          </div>
+
+          {/* Bagažas */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">
+              Bagažo informacija
+            </h3>
+
+            {activeLanguageTab === "lt" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lietuvių kalba
+                </label>
+                <input
+                  type="text"
+                  name="baggageLt"
+                  value={formData.baggageLt || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="20kg registruotas bagažas"
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "en" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Anglų kalba
+                </label>
+                <input
+                  type="text"
+                  name="baggageEn"
+                  value={formData.baggageEn || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="20kg checked baggage"
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "pl" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lenkų kalba
+                </label>
+                <input
+                  type="text"
+                  name="baggagePl"
+                  value={formData.baggagePl || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="20kg bagażu rejestrowanego"
+                />
+              </div>
+            )}
+          </div>
+
+          {/* Kelionė autobusu */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">
+              Kelionė autobusu
+            </h3>
+
+            {activeLanguageTab === "lt" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lietuvių kalba
+                </label>
+                <input
+                  type="text"
+                  name="busTravelLt"
+                  value={formData.busTravelLt || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="pvz. Išvykimas iš Vilniaus"
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "en" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Anglų kalba
+                </label>
+                <input
+                  type="text"
+                  name="busTravelEn"
+                  value={formData.busTravelEn || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="e.g. Departure from Vilnius"
+                />
+              </div>
+            )}
+
+            {activeLanguageTab === "pl" && (
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Lenkų kalba
+                </label>
+                <input
+                  type="text"
+                  name="busTravelPl"
+                  value={formData.busTravelPl || ""}
+                  onChange={handleInputChange}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="np. Wyjazd z Wilna"
+                />
+              </div>
+            )}
           </div>
 
           {/* Submit */}

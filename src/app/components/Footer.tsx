@@ -5,12 +5,14 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import useSWR from "swr";
 import { fetcher } from "../../lib/fetcher";
 import { ContactSettings } from "../../data/types";
+import { useTranslations } from "../../contexts/LanguageContext";
 
 export default function Footer() {
   const { data: settings } = useSWR<ContactSettings>(
     "/api/contact-settings",
     fetcher
   );
+  const tFooter = useTranslations("footer");
 
   return (
     <footer className="bg-gray-900 text-white mt-auto">
@@ -18,41 +20,41 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Kompanijos informacija */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Krauk lagaminą</h3>
+            <h3 className="text-lg font-semibold mb-4">
+              {tFooter("companyName")}
+            </h3>
             <p className="text-gray-300 text-sm">
-              Jūsų patikimas kelionių partneris. Organizuojame nepamirštamas
-              keliones po visą pasaulį.
+              {tFooter("companyDescription")}
             </p>
           </div>
 
-          {/* Kontaktai */}
+          {/* Rekvizitai */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Kontaktai</h3>
-            <div className="space-y-2">
-              {settings?.defaultPhone && (
-                <a
-                  href={`tel:${settings.defaultPhone}`}
-                  className="flex items-center text-gray-300 hover:text-white text-sm transition-colors"
-                >
-                  <MdPhone className="mr-2 text-blue-400" size={16} />
-                  {settings.defaultPhone}
-                </a>
-              )}
-              {settings?.defaultEmail && (
-                <a
-                  href={`mailto:${settings.defaultEmail}`}
-                  className="flex items-center text-gray-300 hover:text-white text-sm transition-colors"
-                >
-                  <MdEmail className="mr-2 text-blue-400" size={16} />
-                  {settings.defaultEmail}
-                </a>
-              )}
+            <h3 className="text-lg font-semibold mb-4">
+              {tFooter("companyDetailsTitle")}
+            </h3>
+            <div className="space-y-2 text-gray-300 text-sm">
+              <p>
+                <span className="text-gray-400">{tFooter("companyCodeLabel")}: </span>
+                {tFooter("companyCode")}
+              </p>
+              <p>
+                <span className="text-gray-400">{tFooter("address")}: </span>
+                {tFooter("addressValue")}
+              </p>
+              <p>
+                <span className="text-gray-400">{tFooter("workingHours")}: </span>
+              </p>
+              <p>{tFooter("workingHoursWeekdays")}</p>
+              <p>{tFooter("workingHoursSaturday")}</p>
             </div>
           </div>
 
           {/* Socialiniai tinklai */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Sekite mus</h3>
+            <h3 className="text-lg font-semibold mb-4">
+              {tFooter("followUsTitle")}
+            </h3>
             <div className="flex space-x-4">
               {settings?.defaultFacebook && (
                 <a
@@ -80,11 +82,30 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center">
+        {/* Kontaktai ir copyright */}
+        <div className="border-t border-gray-700 mt-8 pt-6 text-center space-y-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+            {settings?.defaultPhone && (
+              <a
+                href={`tel:${settings.defaultPhone}`}
+                className="flex items-center text-gray-300 hover:text-white text-sm transition-colors"
+              >
+                <MdPhone className="mr-2 text-blue-400" size={16} />
+                {settings.defaultPhone}
+              </a>
+            )}
+            {settings?.defaultEmail && (
+              <a
+                href={`mailto:${settings.defaultEmail}`}
+                className="flex items-center text-gray-300 hover:text-white text-sm transition-colors"
+              >
+                <MdEmail className="mr-2 text-blue-400" size={16} />
+                {settings.defaultEmail}
+              </a>
+            )}
+          </div>
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Krauk lagaminą. Visos teisės
-            saugomos.
+            &copy; {new Date().getFullYear()} {tFooter("copyright")}
           </p>
         </div>
       </div>

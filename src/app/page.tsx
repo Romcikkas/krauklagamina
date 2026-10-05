@@ -1,26 +1,31 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-const travelCards = [
-  {
-    img: "/images/homepage-cards/photo-1476514525535-07fb3b4ae5f1.jpg", // Santorini, Greece - gražus paplūdimys su mėlynais namais
-    title: "Patrauklios kainos",
-    desc: "Dėka daugiametės patirties ir bendradarbiavimo su partneriais siūlome žemas lėktuvų bilietų ir viešbučių kainas",
-  },
-  {
-    img: "/images/homepage-cards/premium_photo-1700828284504-02bd8d5fb2d4.jpg", // Bali, Indonezija - egzotiškas paplūdimys su palmėmis
-    title: "Egzotiškos kryptys",
-    desc: "Siūlome keliones į gražiausius pasaulio kampelius, pritaikytus jūsų poreikiams ir lūkesčiams.",
-  },
-  {
-    img: "/images/homepage-cards/photo-1591705153598-636cb119d2fd.jpg", // Kelionių konsultantas su klientu - profesionalus aptarnavimas
-    title: "Pilnas palaikymas",
-    desc: "Užtikriname visapusišką aptarnavimą ir pagalbą kiekviename kelionės etape.",
-  },
-];
+import { useTranslations } from "../contexts/LanguageContext";
 
 export default function Home() {
+  const tHero = useTranslations("hero");
+  const tFeatures = useTranslations("features");
+  const tStats = useTranslations("statistics");
+
+  const travelCards = [
+    {
+      img: "/images/homepage-cards/photo-1476514525535-07fb3b4ae5f1.jpg",
+      title: tFeatures("attractivePrices.title"),
+      desc: tFeatures("attractivePrices.description"),
+    },
+    {
+      img: "/images/homepage-cards/premium_photo-1700828284504-02bd8d5fb2d4.jpg",
+      title: tFeatures("exoticDestinations.title"),
+      desc: tFeatures("exoticDestinations.description"),
+    },
+    {
+      img: "/images/homepage-cards/photo-1591705153598-636cb119d2fd.jpg",
+      title: tFeatures("fullSupport.title"),
+      desc: tFeatures("fullSupport.description"),
+    },
+  ];
+
   return (
     <div>
       {/* Hero Section - Full Width, No Margins */}
@@ -69,7 +74,7 @@ export default function Home() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <span className="text-2xl ">✈️</span> Patikimas kelionių partneris
+              <span className="text-2xl ">✈️</span> {tHero("badge")}
             </motion.div>
 
             {/* Main Heading */}
@@ -80,11 +85,11 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <span className="bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                Krauk lagaminą
+                {tHero("title")}
               </span>
               <br />
               <span className="text-2xl md:text-3xl lg:text-5xl font-light text-blue-100">
-                ir keliauk daugiau mokėdamas mažiau
+                {tHero("subtitle")}
               </span>
             </motion.h1>
 
@@ -95,7 +100,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              Jūsų patikima kelionių agentūra – geriausios kainos garantija.
+              {tHero("description")}
             </motion.p>
 
             {/* CTA Buttons */}
@@ -111,7 +116,7 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span className="relative z-10">Žiūrėti keliones</span>
+                <span className="relative z-10">{tHero("ctaPrimary")}</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-purple-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </motion.a>
 
@@ -121,7 +126,7 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Susisiekti su mumis
+                {tHero("ctaSecondary")}
               </motion.a>
             </motion.div>
 
@@ -139,9 +144,11 @@ export default function Home() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: 1.4 }}
                 >
-                  500+
+                  {tStats("happyClientsCount")}
                 </motion.div>
-                <div className="text-blue-200 text-sm">Laimingų klientų</div>
+                <div className="text-blue-200 text-sm">
+                  {tStats("happyClients")}
+                </div>
               </div>
 
               <div className="text-center">
@@ -151,22 +158,12 @@ export default function Home() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: 1.6 }}
                 >
-                  50+
+                  {tStats("countriesCount")}
                 </motion.div>
-                <div className="text-blue-200 text-sm">Šalių</div>
+                <div className="text-blue-200 text-sm">
+                  {tStats("countries")}
+                </div>
               </div>
-
-              {/* <div className="text-center">
-                <motion.div
-                  className="text-3xl md:text-4xl font-bold text-white mb-2"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.6, delay: 1.8 }}
-                >
-                  5+
-                </motion.div>
-                <div className="text-blue-200 text-sm">Metų patirtis</div>
-              </div> */}
 
               <div className="text-center">
                 <motion.div
@@ -175,9 +172,9 @@ export default function Home() {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: 2.0 }}
                 >
-                  24/7
+                  {tStats("supportCount")}
                 </motion.div>
-                <div className="text-blue-200 text-sm">Palaikymas</div>
+                <div className="text-blue-200 text-sm">{tStats("support")}</div>
               </div>
             </motion.div>
 
@@ -213,11 +210,10 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Kodėl rinktis mus?
+              {tFeatures("title")}
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Mūsų komanda užtikrina, kad jūsų kelionė būtų ne tik saugi, bet ir
-              nepamirštama
+              {tFeatures("subtitle")}
             </p>
           </motion.div>
 

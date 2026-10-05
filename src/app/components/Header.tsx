@@ -2,18 +2,44 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useAuth } from "../../contexts/AuthContext";
+import { useLanguage, useTranslations } from "../../contexts/LanguageContext";
 import { MdPhone, MdEmail } from "react-icons/md";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import useSWR from "swr";
 import { fetcher } from "../../lib/fetcher";
 import { ContactSettings } from "../../data/types";
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
-  const [currentLang, setCurrentLang] = useState("LT");
   const { isAdmin, logout } = useAuth();
+  const { locale, setLocale, messages } = useLanguage();
+  const t = useTranslations("navigation");
+  const tContact = useTranslations("contact");
+
+  const [currentLang, setCurrentLang] = useState("LT");
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  // Sync currentLang with locale from context
+  useEffect(() => {
+    setCurrentLang(locale.toUpperCase());
+  }, [locale]);
+
+  // Check if translations are loaded
+  useEffect(() => {
+    if (messages && Object.keys(messages).length > 0) {
+      setIsLoaded(true);
+    }
+  }, [messages]);
+
+  // Save language to localStorage when it changes
+  const handleLanguageChange = (langCode: string) => {
+    setCurrentLang(langCode);
+    setLocale(langCode.toLowerCase() as "lt" | "en" | "pl");
+    setIsLangOpen(false);
+  };
 
   // Fetch contact settings for mobile menu
   const { data: settings } = useSWR<ContactSettings>(
@@ -59,10 +85,10 @@ export default function Header() {
   ];
 
   const menuItems = [
-    { name: "Pagrindinis", href: "/" },
-    { name: "Apie mus", href: "/apie" },
-    { name: "Kelionių pasiūlymai", href: "/kelioniu-pasiulymai" },
-    { name: "Kontaktai", href: "/contact" },
+    { name: isLoaded ? t("home") : "", href: "/" },
+    { name: isLoaded ? t("about") : "", href: "/apie" },
+    { name: isLoaded ? t("offers") : "", href: "/kelioniu-pasiulymai" },
+    { name: isLoaded ? t("contact") : "", href: "/contact" },
   ];
 
   return (
@@ -84,7 +110,7 @@ export default function Header() {
         <nav className="hidden md:flex flex-1 lg:space-x-2 lg:ml-14 items-center gap-3 lg:gap-5 whitespace-nowrap mx-3 lg:mx-8">
           {menuItems.map((item) => (
             <a
-              key={item.name}
+              key={item.href}
               href={item.href}
               className="text-black hover:text-gray-700 transition-colors lg:text-[18px] font-semibold tracking-wide"
               style={{ fontFamily: "Nunito, sans-serif" }}
@@ -125,19 +151,19 @@ export default function Header() {
 
           {/* Admin Badge */}
           {isAdmin && (
-            <div className="flex items-center gap-2">
-              <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            <div className="flex items-center gap-1 sm:gap-2">
+              <span className="bg-red-500 text-white px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm font-semibold">
                 ADMIN
               </span>
               <Link
                 href="/admin"
-                className="text-blue-600 hover:text-blue-800 text-sm"
+                className="text-blue-600 hover:text-blue-800 text-xs sm:text-sm"
               >
                 Panel
               </Link>
               <button
                 onClick={logout}
-                className="text-red-600 hover:text-red-800 text-sm cursor-pointer"
+                className="text-red-600 hover:text-red-800 text-xs sm:text-sm cursor-pointer"
               >
                 Atsijungti
               </button>
@@ -190,10 +216,7 @@ export default function Header() {
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => {
-                      setCurrentLang(lang.code);
-                      setIsLangOpen(false);
-                    }}
+                    onClick={() => handleLanguageChange(lang.code)}
                     className="flex items-center gap-2 w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     {lang.flag}
@@ -270,10 +293,7 @@ export default function Header() {
                     {languages.map((lang) => (
                       <button
                         key={lang.code}
-                        onClick={() => {
-                          setCurrentLang(lang.code);
-                          setIsLangOpen(false);
-                        }}
+                        onClick={() => handleLanguageChange(lang.code)}
                         className="flex items-center gap-2 w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       >
                         {lang.flag}
@@ -324,7 +344,7 @@ export default function Header() {
           <div className="px-4 py-3 space-y-2">
             {menuItems.map((item, idx) => (
               <a
-                key={item.name}
+                key={item.href}
                 href={item.href}
                 className={`block py-3 text-black hover:text-gray-700 transition-colors font-medium ${
                   idx < menuItems.length - 1 ? "border-b border-gray-200" : ""
@@ -340,7 +360,7 @@ export default function Header() {
           {settings && (
             <div className="border-t border-gray-200 px-4 py-4">
               <h3 className="text-sm font-semibold text-gray-800 mb-3">
-                Susisiekite su mumis
+                {isLoaded ? tContact("contactUsInHeader") : ""}
               </h3>
 
               {/* Contact Links */}
@@ -367,7 +387,9 @@ export default function Header() {
 
               {/* Social Media */}
               <div className="flex items-center gap-4">
-                <span className="text-xs text-gray-600">Sekite mus:</span>
+                <span className="text-xs text-gray-600">
+                  {isLoaded ? tContact("followUs") : ""}
+                </span>
                 <div className="flex gap-3">
                   {settings.defaultFacebook && (
                     <a

@@ -5,45 +5,109 @@
     "offers": "Kelionių pasiūlymai",
     "contact": "Kontaktai",
     "admin": "Administratoriaus panelė",
-    "logout": "Atsijungti"
+    "logout": "Atsijungti",
+    "adminBadge": "ADMIN",
+    "adminPanel": "Panel"
   },
   "hero": {
-    "title": "Keliauk su mumis į gražiausius pasaulio kampelius",
-    "subtitle": "Profesionalus kelionių organizavimas jau 15 metų",
-    "cta": "Rasti kelionę",
-    "scrollDown": "Slinkti žemyn"
+    "badge": "Patikimas kelionių partneris",
+    "title": "Krauk lagaminą",
+    "subtitle": "ir keliauk daugiau mokėdamas mažiau",
+    "description": "Jūsų patikima kelionių agentūra – geriausios kainos garantija.",
+    "ctaPrimary": "Žiūrėti keliones",
+    "ctaSecondary": "Susisiekti su mumis"
   },
   "features": {
-    "title": "Kodėl pasirinkti mus?",
+    "title": "Kodėl rinktis mus?",
+    "subtitle": "Mūsų komanda užtikrina, kad jūsų kelionė būtų ne tik saugi, bet ir nepamirštama",
     "attractivePrices": {
       "title": "Patrauklios kainos",
       "description": "Dėka daugiametės patirties ir bendradarbiavimo su partneriais siūlome žemas lėktuvų bilietų ir viešbučių kainas"
     },
     "exoticDestinations": {
       "title": "Egzotiškos kryptys",
-      "description": "Siūlome keliones į gražiausius pasaulio kampelius, pritaikytus jūsų poreikiams ir lūkesčiams"
+      "description": "Siūlome keliones į gražiausius pasaulio kampelius, pritaikytus jūsų poreikiams ir lūkesčiams."
     },
     "fullSupport": {
       "title": "Pilnas palaikymas",
-      "description": "Užtikriname visapusišką aptarnavimą ir pagalbą kiekviename kelionės etape"
+      "description": "Užtikriname visapusišką aptarnavimą ir pagalbą kiekviename kelionės etape."
     }
   },
   "statistics": {
     "happyClients": "Laimingų klientų",
-    "destinations": "Krypčių",
-    "yearsExperience": "Metų patirtis"
+    "happyClientsCount": "500+",
+    "countries": "Šalių",
+    "countriesCount": "50+",
+    "support": "Palaikymas",
+    "supportCount": "24/7"
   },
   "about": {
     "title": "Apie mus",
-    "description": "Mes esame patikima kelionių agentūra su daugiau nei 15 metų patirtimi turizmo sektorje. Mūsų tikslas - suteikti jums nepamirštamų kelionių patirčių."
+    "description": "Mes esame patikima kelionių agentūra su daugiau nei 15 metų patirtimi turizmo sektoruje. Mūsų tikslas - suteikti jums nepamirštamų kelionių patirčių.",
+    "page": {
+      "badge": "Jūsų kelionių partneriai nuo 2016 metų",
+      "title": "Apie mus",
+      "subtitle": "Jūsų kelionių partneris, kuris tiki, kad kelionės keičia žmonių gyvenimą. Mūsų misija - padėti jums atrasti pasaulį ir sukurti nepamirštamus prisiminimus.",
+      "storyTitle": "Mūsų istorija",
+      "storyParagraph1": "Mūsų kelionių agentūra gimė iš didelės aistros kelionėms ir noros dalintis nepakartojamais potyriais su kitais. Įkūrėme įmonę su tikslu – padėti žmonėms atrasti pasaulį patogiai, saugiai ir už geriausias kainas.",
+      "storyParagraph2": "Kiekviena kelionė mums – ne tik darbas, bet ir galimybė kurti prisiminimus, kurie išlieka visam gyvenimui. Nuo pirmos dienos siekėme, kad mūsų klientai jaustųsi ne tik kaip keliautojai, bet ir kaip mūsų partneriai šiame nuotykyje. Ši aistra ir atsidavimas iki šiol yra pagrindinė mūsų vertybė ir varomoji jėga.",
+      "valuesTitle": "Mūsų vertybės",
+      "valuesSubtitle": "Šios vertybės formuoja visą mūsų veiklą ir santykius su klientais",
+      "reliability": {
+        "title": "Patikimumas",
+        "description": "Mes laikomės visų pažadų ir užtikriname aukščiausios kokybės paslaugas."
+      },
+      "passion": {
+        "title": "Aistra kelionėms",
+        "description": "Mūsų komandos nariai - tikri kelionių entuziastai, kurie myli tą, ką daro."
+      },
+      "improvement": {
+        "title": "Nuolatinis tobulėjimas",
+        "description": "Visada ieškome naujų būdų pagerinti mūsų paslaugas ir klientų patirtį."
+      },
+      "individual": {
+        "title": "Individualus požiūris",
+        "description": "Kiekviena kelionė yra unikalus projektas, pritaikytas jūsų poreikiams."
+      },
+      "ctaTitle": "Pasiruošę savo kelionei?",
+      "ctaSubtitle": "Susisiekite su mumis ir pradėkime planuoti jūsų nepamirštamą kelionę jau šiandien!",
+      "ctaViewOffers": "Žiūrėti pasiūlymus",
+      "ctaContact": "Susisiekti su mumis"
+    }
+  },
+  "footer": {
+    "companyName": "Krauk lagaminą",
+    "companyDescription": "Jūsų patikimas kelionių partneris. Planuojame nepamirštamas keliones po visą pasaulį.",
+    "companyDetailsTitle": "Rekvizitai",
+    "companyCodeLabel": "Įmonės kodas",
+    "companyCode": "307536822",
+    "address": "Adresas",
+    "addressValue": "Perkūnkiemio 49, LT12144 Vilnius",
+    "workingHours": "Darbo laikas",
+    "workingHoursWeekdays": "I–V 09:00–18:00",
+    "workingHoursSaturday": "VI 10:00–16:00",
+    "followUsTitle": "Sekite mus",
+    "copyright": "Krauk lagaminą. Visos teisės saugomos."
   },
   "contact": {
     "title": "Susisiekite su mumis",
+    "subtitle": "Turime klausimų dėl kelionių? Susisiekite su mumis bet kuriuo patogiu būdu!",
+    "pageTitle": "Kontaktinė informacija",
     "phone": "Telefonas",
     "email": "El. paštas",
     "address": "Adresas",
+    "addressValue": "Perkūnkiemio 49, LT12144 Vilnius",
+    "companyCodeLabel": "Įmonės kodas",
+    "companyCode": "307536822",
     "workingHours": "Darbo laikas",
+    "workingHoursWeekdays": "I–V 09:00–18:00",
+    "workingHoursSaturday": "VI 10:00–16:00",
+    "socialMediaTitle": "Sekite mus socialiniuose tinkluose",
+    "contactUsInHeader": "Susisiekite su mumis",
+    "followUs": "Sekite mus:",
+    "loading": "Kraunami kontaktai...",
     "form": {
+      "title": "Parašykite mums",
       "name": "Vardas",
       "email": "El. paštas",
       "phone": "Telefonas",
@@ -52,11 +116,18 @@
       "send": "Siųsti žinutę",
       "sending": "Siunčiama...",
       "success": "Žinutė sėkmingai išsiųsta!",
-      "error": "Klaida siunčiant žinutę. Bandykite dar kartą."
+      "error": "Klaida siunčiant žinutę. Bandykite dar kartą.",
+      "namePlaceholder": "Jūsų vardas",
+      "emailPlaceholder": "jusu@gmail.com",
+      "phonePlaceholder": "+370 600 12345",
+      "subjectPlaceholder": "Klausimas dėl kelionės",
+      "messagePlaceholder": "Parašykite savo klausimą...",
+      "required": "*"
     }
   },
   "trips": {
     "title": "Kelionių pasiūlymai",
+    "subtitle": "Raskite savo idealią kelionę iš mūsų kruopščiai parinktų pasiūlymų",
     "searchPlaceholder": "Ieškoti kelionių...",
     "filter": "Filtruoti",
     "sort": "Rūšiuoti",
@@ -67,10 +138,70 @@
     "destination": "Kryptis",
     "bookNow": "Užsakyti dabar",
     "moreInfo": "Daugiau informacijos",
+    "showing": "Rodoma",
+    "of": "iš",
+    "trips": "kelionių",
+    "showPerPage": "Rodyti po:",
     "days": "dienų",
     "nights": "naktų",
     "from": "nuo",
-    "person": "asmeniui"
+    "person": "asmeniui",
+    "loading": "Kraunamos kelionės...",
+    "noTrips": "Kelionių nėra",
+    "perPerson": "/asm.",
+    "viewDetails": "Žiūrėti",
+    "view": "Žiūrėti",
+    "edit": "Redaguoti",
+    "delete": "Ištrinti",
+    "deleting": "Trinami...",
+    "badges": {
+      "exotic": "Egzotinė kelionė",
+      "dailyPrice": "Dienos kaina",
+      "lastMinute": "Paskutinė minutė",
+      "popular": "Populiarus",
+      "allInclusive": "Viskas įskaičiuota"
+    },
+    "transportFilters": {
+      "all": "Visos kelionės",
+      "bus": "Kelionės autobusu",
+      "fly": "Kelionės lėktuvu"
+    },
+    "grudaConsent": {
+      "modalTitle": "Trečiosios šalies įskiepis",
+      "notice": "Šiame bloke rodomas trečiosios šalies kelionių paieškos įskiepis. Jis naudoja trečiosios šalies slapukus (statistika, rinkodara). Paspausdami „Sutinku“, × arba už šio lango ribų sutinkate su šio įskiepio slapukais.",
+      "closeAgreeLabel": "Sutikti ir uždaryti",
+      "privacyLinkLabel": "Trečiosios šalies privatumo politika",
+      "accept": "Sutinku",
+      "decline": "Nesutinku",
+      "declinedMessage": "Trečiosios šalies paieška išjungta. Žemiau matote mūsų kelionių pasiūlymus.",
+      "changeChoice": "Įjungti trečiosios šalies paiešką",
+      "previewHint": "Peržiūra — pilna paieška įkeliama tik po sutikimo su įskiepio slapukais."
+    },
+    "categories": {
+      "Prabangus": "Prabangus",
+      "Standartinis": "Standartinis",
+      "Ekonominis": "Ekonominis",
+      "Vidutinis": "Vidutinis",
+      "Aukštos klasės": "Aukštos klasės"
+    },
+    "modal": {
+      "departureDate": "Išvykimo data:",
+      "duration": "Trukmė:",
+      "hotel": "Viešbutis",
+      "rating": "Įvertinimas",
+      "description": "Aprašymas",
+      "additionalFeatures": "Papildomi patogumai",
+      "price": "Kaina",
+      "was": "Buvo:",
+      "contactForReservation": "💬 Susisiekite dėl rezervacijos",
+      "workingHours": "Darbo dienomis 9:00-18:00",
+      "responseTime": "Atsakysime per 24h",
+      "followSocial": "Sekite mus socialiniuose tinkluose",
+      "additionalInfo": "Papildoma informacija",
+      "flight": "Skrydis:",
+      "baggage": "Bagažas:",
+      "busTravel": "Kelionė autobusu:"
+    }
   },
   "common": {
     "loading": "Kraunama...",
@@ -87,9 +218,40 @@
     "showMore": "Rodyti daugiau",
     "showLess": "Rodyti mažiau"
   },
+  "months": {
+    "sausio": "sausio",
+    "vasario": "vasario",
+    "kovo": "kovo",
+    "balandžio": "balandžio",
+    "gegužės": "gegužės",
+    "birželio": "birželio",
+    "liepos": "liepos",
+    "rugpjūčio": "rugpjūčio",
+    "rugsėjo": "rugsėjo",
+    "spalio": "spalio",
+    "lapkričio": "lapkričio",
+    "gruodžio": "gruodžio"
+  },
   "languages": {
     "lithuanian": "Lietuvių",
     "polish": "Polski",
     "english": "English"
+  },
+  "tripFeatures": {
+    "Baseinas su šildomu vandeniu": "Baseinas su šildomu vandeniu",
+    "Nemokamas WiFi": "Nemokamas WiFi",
+    "Oro kondicionierius": "Oro kondicionierius",
+    "Restoranas": "Restoranas",
+    "Vandenyno vaizdas iš kambario": "Vandenyno vaizdas iš kambario",
+    "Baseinas su saulės terasomis": "Baseinas su saulės terasomis",
+    "Pusryčiai ir vakarienė": "Pusryčiai ir vakarienė",
+    "Autobusų stotelė šalia": "Autobusų stotelė šalia",
+    "Paplūdimys už 200m": "Paplūdimys už 200m",
+    "Prabangūs apartamentai": "Prabangūs apartamentai",
+    "Privatus koralų rifas": "Privatus koralų rifas",
+    "5 restoranai ir 4 barai": "5 restoranai ir 4 barai",
+    "Nardymo centras": "Nardymo centras",
+    "Golfas netoliese": "Golfas netoliese",
+    "Spa ir masažo procedūros": "Spa ir masažo procedūros"
   }
 }

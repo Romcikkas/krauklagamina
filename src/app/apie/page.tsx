@@ -10,70 +10,53 @@ import {
   MdTrendingUp,
 } from "react-icons/md";
 import { FaHandshake, FaHeart } from "react-icons/fa";
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const teamMembers = [
-  {
-    name: "Evelina Navickienė",
-    role: "Įkūrėja ir generalinė direktorė",
-    image:
-      "https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&w=400&q=80",
-    description:
-      "15 metų patirtis kelionių srityje. Specializuojasi egzotiškų kelionių organizavime.",
-  },
-  {
-    name: "Mindaugas Petrauskas",
-    role: "Kelionių ekspertas",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-    description:
-      "Aplankė 40+ šalių. Specialistas kultūrinių ir nuotykių kelionių srityje.",
-  },
-  {
-    name: "Laura Kazlauskienė",
-    role: "Klientų aptarnavimo vadovė",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
-    description:
-      "Užtikrina, kad kiekvienas klientas jaustųsi ypatingas ir išgirstas.",
-  },
-];
-
-const stats = [
-  { number: "100+", label: "Laimingų klientų", icon: MdPeople },
-  { number: "50+", label: "Šalių", icon: MdLocationOn },
-  //   { number: "5", label: "Metų patirtis", icon: MdStar },
-  { number: "24/7", label: "Palaikymas", icon: MdSupport },
-];
-
-const values = [
-  {
-    icon: MdVerified,
-    title: "Patikimumas",
-    description:
-      "Mes laikomės visų pažadų ir užtikriname aukščiausios kokybės paslaugas.",
-  },
-  {
-    icon: FaHeart,
-    title: "Aistra kelionėms",
-    description:
-      "Mūsų komandos nariai - tikri kelionių entuziastai, kurie myli tą, ką daro.",
-  },
-  {
-    icon: MdTrendingUp,
-    title: "Nuolatinis tobulėjimas",
-    description:
-      "Visada ieškome naujų būdų pagerinti mūsų paslaugas ir klientų patirtį.",
-  },
-  {
-    icon: FaHandshake,
-    title: "Individualus požiūris",
-    description:
-      "Kiekviena kelionė yra unikalus projektas, pritaikytas jūsų poreikiams.",
-  },
-];
+import { useTranslations } from "../../contexts/LanguageContext";
 
 export default function ApieMusPage() {
+  const tAbout = useTranslations("about.page");
+  const tStats = useTranslations("statistics");
+
+  const stats = [
+    {
+      number: tStats("happyClientsCount"),
+      label: tStats("happyClients"),
+      icon: MdPeople,
+    },
+    {
+      number: tStats("countriesCount"),
+      label: tStats("countries"),
+      icon: MdLocationOn,
+    },
+    {
+      number: tStats("supportCount"),
+      label: tStats("support"),
+      icon: MdSupport,
+    },
+  ];
+
+  const values = [
+    {
+      icon: MdVerified,
+      title: tAbout("reliability.title"),
+      description: tAbout("reliability.description"),
+    },
+    {
+      icon: FaHeart,
+      title: tAbout("passion.title"),
+      description: tAbout("passion.description"),
+    },
+    {
+      icon: MdTrendingUp,
+      title: tAbout("improvement.title"),
+      description: tAbout("improvement.description"),
+    },
+    {
+      icon: FaHandshake,
+      title: tAbout("individual.title"),
+      description: tAbout("individual.description"),
+    },
+  ];
+
   return (
     <div>
       {/* Hero Section */}
@@ -100,7 +83,7 @@ export default function ApieMusPage() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <MdTravelExplore size={24} />
-              Jūsų kelionių partneriai nuo 2016 metų
+              {tAbout("badge")}
             </motion.div>
 
             <motion.h1
@@ -110,7 +93,7 @@ export default function ApieMusPage() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <span className="bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-                Apie mus
+                {tAbout("title")}
               </span>
             </motion.h1>
 
@@ -120,9 +103,7 @@ export default function ApieMusPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              Jūsų kelionių partneris, kuris tiki, kad kelionės keičia žmonių
-              gyvenimą. Mūsų misija - padėti jums atrasti pasaulį ir sukurti
-              nepamirštamus prisiminimus.
+              {tAbout("subtitle")}
             </motion.p>
 
             <motion.div
@@ -162,21 +143,13 @@ export default function ApieMusPage() {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Mūsų istorija
+                {tAbout("storyTitle")}
               </h2>
               <p className="text-lg text-gray-600 mb-2 leading-relaxed">
-                Mūsų kelionių agentūra gimė iš didelės aistros kelionėms ir
-                noros dalintis nepakartojamais potyriais su kitais. Įkūrėme
-                įmonę su tikslu – padėti žmonėms atrasti pasaulį patogiai,
-                saugiai ir už geriausias kainas.
+                {tAbout("storyParagraph1")}
               </p>
               <p className="text-lg text-gray-600 mb-2 leading-relaxed">
-                Kiekviena kelionė mums – ne tik darbas, bet ir galimybė kurti
-                prisiminimus, kurie išlieka visam gyvenimui. Nuo pirmos dienos
-                siekėme, kad mūsų klientai jaustųsi ne tik kaip keliautojai, bet
-                ir kaip mūsų partneriai šiame nuotykyje. Ši aistra ir
-                atsidavimas iki šiol yra pagrindinė mūsų vertybė ir varomoji
-                jėga.
+                {tAbout("storyParagraph2")}
               </p>
               {/*Sertifikuota agentura, tarptautine patirtis */}
               {/* <div className="flex items-center gap-4">
@@ -237,10 +210,10 @@ export default function ApieMusPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Mūsų vertybės
+              {tAbout("valuesTitle")}
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Šios vertybės formuoja visą mūsų veiklą ir santykius su klientais
+              {tAbout("valuesSubtitle")}
             </p>
           </motion.div>
 
@@ -339,11 +312,10 @@ export default function ApieMusPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Pasiruošę savo kelionei?
+              {tAbout("ctaTitle")}
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Susisiekite su mumis ir pradėkime planuoti jūsų nepamirštamą
-              kelionę jau šiandien!
+              {tAbout("ctaSubtitle")}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -353,7 +325,7 @@ export default function ApieMusPage() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Žiūrėti pasiūlymus
+                {tAbout("ctaViewOffers")}
               </motion.a>
               <motion.a
                 href="/contact"
@@ -361,7 +333,7 @@ export default function ApieMusPage() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Susisiekti su mumis
+                {tAbout("ctaContact")}
               </motion.a>
             </div>
           </motion.div>

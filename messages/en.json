@@ -5,45 +5,109 @@
     "offers": "Travel Offers",
     "contact": "Contact",
     "admin": "Admin Panel",
-    "logout": "Logout"
+    "logout": "Logout",
+    "adminBadge": "ADMIN",
+    "adminPanel": "Panel"
   },
   "hero": {
-    "title": "Travel with us to the most beautiful corners of the world",
-    "subtitle": "Professional travel organization for 15 years",
-    "cta": "Find a trip",
-    "scrollDown": "Scroll down"
+    "badge": "Reliable travel partner",
+    "title": "Pack your bags",
+    "subtitle": "and travel more while paying less",
+    "description": "Your trusted travel agency – best price guarantee.",
+    "ctaPrimary": "View trips",
+    "ctaSecondary": "Contact us"
   },
   "features": {
     "title": "Why choose us?",
+    "subtitle": "Our team ensures that your trip is not only safe, but also unforgettable",
     "attractivePrices": {
       "title": "Attractive prices",
       "description": "Thanks to years of experience and cooperation with partners, we offer low prices for flights and hotels"
     },
     "exoticDestinations": {
       "title": "Exotic destinations",
-      "description": "We offer trips to the most beautiful corners of the world, tailored to your needs and expectations"
+      "description": "We offer trips to the most beautiful corners of the world, tailored to your needs and expectations."
     },
     "fullSupport": {
       "title": "Full support",
-      "description": "We ensure comprehensive service and assistance at every stage of your journey"
+      "description": "We ensure comprehensive service and assistance at every stage of the journey."
     }
   },
   "statistics": {
     "happyClients": "Happy clients",
-    "destinations": "Destinations",
-    "yearsExperience": "Years of experience"
+    "happyClientsCount": "500+",
+    "countries": "Countries",
+    "countriesCount": "50+",
+    "support": "Support",
+    "supportCount": "24/7"
   },
   "about": {
     "title": "About Us",
-    "description": "We are a trusted travel agency with over 15 years of experience in the tourism sector. Our goal is to provide you with unforgettable travel experiences."
+    "description": "We are a trusted travel agency with more than 15 years of experience in the tourism sector. Our goal is to provide you with unforgettable travel experiences.",
+    "page": {
+      "badge": "Your travel partners since 2016",
+      "title": "About Us",
+      "subtitle": "Your travel partner who believes that travel changes people's lives. Our mission is to help you discover the world and create unforgettable memories.",
+      "storyTitle": "Our story",
+      "storyParagraph1": "Our travel agency was born from a great passion for travel and the desire to share unique experiences with others. We founded the company with the goal of helping people discover the world conveniently, safely and at the best prices.",
+      "storyParagraph2": "Every trip for us is not just work, but also an opportunity to create memories that last a lifetime. From day one, we wanted our clients to feel not only as travelers, but also as our partners in this adventure. This passion and dedication is still our core value and driving force.",
+      "valuesTitle": "Our values",
+      "valuesSubtitle": "These values shape all our activities and relationships with clients",
+      "reliability": {
+        "title": "Reliability",
+        "description": "We keep all our promises and ensure the highest quality services."
+      },
+      "passion": {
+        "title": "Passion for travel",
+        "description": "Our team members are true travel enthusiasts who love what they do."
+      },
+      "improvement": {
+        "title": "Continuous improvement",
+        "description": "We are always looking for new ways to improve our services and customer experience."
+      },
+      "individual": {
+        "title": "Individual approach",
+        "description": "Every trip is a unique project tailored to your needs."
+      },
+      "ctaTitle": "Ready for your trip?",
+      "ctaSubtitle": "Contact us and let's start planning your unforgettable trip today!",
+      "ctaViewOffers": "View offers",
+      "ctaContact": "Contact us"
+    }
+  },
+  "footer": {
+    "companyName": "Krauk lagaminą",
+    "companyDescription": "Your trusted travel partner. We plan unforgettable trips around the world.",
+    "companyDetailsTitle": "Company details",
+    "companyCodeLabel": "Company code",
+    "companyCode": "307536822",
+    "address": "Address",
+    "addressValue": "Perkūnkiemio 49, LT12144 Vilnius",
+    "workingHours": "Working hours",
+    "workingHoursWeekdays": "Mon–Fri 09:00–18:00",
+    "workingHoursSaturday": "Sat 10:00–16:00",
+    "followUsTitle": "Follow us",
+    "copyright": "Krauk lagaminą. All rights reserved."
   },
   "contact": {
-    "title": "Contact Us",
+    "title": "Contact us",
+    "subtitle": "Have questions about trips? Contact us in any convenient way!",
+    "pageTitle": "Contact information",
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
-    "workingHours": "Working Hours",
+    "addressValue": "Perkūnkiemio 49, LT12144 Vilnius",
+    "companyCodeLabel": "Company code",
+    "companyCode": "307536822",
+    "workingHours": "Working hours",
+    "workingHoursWeekdays": "Mon–Fri 09:00–18:00",
+    "workingHoursSaturday": "Sat 10:00–16:00",
+    "socialMediaTitle": "Follow us on social media",
+    "contactUsInHeader": "Contact us",
+    "followUs": "Follow us:",
+    "loading": "Loading contacts...",
     "form": {
+      "title": "Write to us",
       "name": "Name",
       "email": "Email",
       "phone": "Phone",
@@ -52,12 +116,19 @@
       "send": "Send message",
       "sending": "Sending...",
       "success": "Message sent successfully!",
-      "error": "Error sending message. Please try again."
+      "error": "Error sending message. Please try again.",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@gmail.com",
+      "phonePlaceholder": "+370 600 12345",
+      "subjectPlaceholder": "Question about the trip",
+      "messagePlaceholder": "Write your question...",
+      "required": "*"
     }
   },
   "trips": {
     "title": "Travel Offers",
-    "searchPlaceholder": "Search trips...",
+    "subtitle": "Find your ideal trip from our carefully selected offers",
+    "searchPlaceholder": "Search for trips...",
     "filter": "Filter",
     "sort": "Sort",
     "priceFrom": "Price from",
@@ -67,10 +138,70 @@
     "destination": "Destination",
     "bookNow": "Book now",
     "moreInfo": "More information",
+    "showing": "Showing",
+    "of": "of",
+    "trips": "trips",
+    "showPerPage": "Show per page:",
     "days": "days",
     "nights": "nights",
     "from": "from",
-    "person": "per person"
+    "person": "per person",
+    "loading": "Loading trips...",
+    "noTrips": "No trips available",
+    "perPerson": "/pp",
+    "viewDetails": "View",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "badges": {
+      "exotic": "Exotic Trip",
+      "dailyPrice": "Daily Deal",
+      "lastMinute": "Last Minute",
+      "popular": "Popular",
+      "allInclusive": "All Inclusive"
+    },
+    "transportFilters": {
+      "all": "All trips",
+      "bus": "Bus trips",
+      "fly": "Flight trips"
+    },
+    "grudaConsent": {
+      "modalTitle": "Third-party plugin",
+      "notice": "This section uses a third-party travel search plugin. It uses third-party cookies (analytics, marketing). By clicking “Agree”, ×, or outside this box, you consent to this plugin’s cookies.",
+      "closeAgreeLabel": "Agree and close",
+      "privacyLinkLabel": "Third-party privacy policy",
+      "accept": "Agree",
+      "decline": "Decline",
+      "declinedMessage": "Third-party search is off. Our trip offers are shown below.",
+      "changeChoice": "Enable third-party search",
+      "previewHint": "Preview only — full search loads after you consent to the plugin cookies."
+    },
+    "categories": {
+      "Prabangus": "Luxury",
+      "Standartinis": "Standard",
+      "Ekonominis": "Economy",
+      "Vidutinis": "Mid-range",
+      "Aukštos klasės": "High-class"
+    },
+    "modal": {
+      "departureDate": "Departure date:",
+      "duration": "Duration:",
+      "hotel": "Hotel",
+      "rating": "Rating",
+      "description": "Description",
+      "additionalFeatures": "Additional Features",
+      "price": "Price",
+      "was": "Was:",
+      "contactForReservation": "💬 Contact for reservation",
+      "workingHours": "Weekdays 9:00-18:00",
+      "responseTime": "We'll respond within 24h",
+      "followSocial": "Follow us on social media",
+      "additionalInfo": "Additional Information",
+      "flight": "Flight:",
+      "baggage": "Baggage:",
+      "busTravel": "Bus travel:"
+    }
   },
   "common": {
     "loading": "Loading...",
@@ -87,9 +218,40 @@
     "showMore": "Show more",
     "showLess": "Show less"
   },
+  "months": {
+    "sausio": "January",
+    "vasario": "February",
+    "kovo": "March",
+    "balandžio": "April",
+    "gegužės": "May",
+    "birželio": "June",
+    "liepos": "July",
+    "rugpjūčio": "August",
+    "rugsėjo": "September",
+    "spalio": "October",
+    "lapkričio": "November",
+    "gruodžio": "December"
+  },
   "languages": {
-    "lithuanian": "Lietuvių",
-    "polish": "Polski",
+    "lithuanian": "Lithuanian",
+    "polish": "Polish",
     "english": "English"
+  },
+  "tripFeatures": {
+    "Baseinas su šildomu vandeniu": "Heated pool",
+    "Nemokamas WiFi": "Free WiFi",
+    "Oro kondicionierius": "Air conditioning",
+    "Restoranas": "Restaurant",
+    "Vandenyno vaizdas iš kambario": "Ocean view from room",
+    "Baseinas su saulės terasomis": "Pool with sun terraces",
+    "Pusryčiai ir vakarienė": "Breakfast and dinner",
+    "Autobusų stotelė šalia": "Bus stop nearby",
+    "Paplūdimys už 200m": "Beach 200m away",
+    "Prabangūs apartamentai": "Luxury apartments",
+    "Privatus koralų rifas": "Private coral reef",
+    "5 restoranai ir 4 barai": "5 restaurants and 4 bars",
+    "Nardymo centras": "Diving center",
+    "Golfas netoliese": "Golf nearby",
+    "Spa ir masažo procedūros": "Spa and massage treatments"
   }
 }

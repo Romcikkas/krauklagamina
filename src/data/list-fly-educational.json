@@ -1,0 +1,766 @@
+{
+  "status": "success",
+  "message": null,
+  "data": [
+    {
+      "id": 1328,
+      "name": "Pažintinė kelionė į Madridą, Avilą, Segoviją, Toledą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Ispanija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-madrida-avila-segovija-toleda",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-07/21464_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-07/21464_grid.jpg"
+    },
+    {
+      "id": 324,
+      "name": "Italija: nuo Venecijos iki Veronos",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 709,
+      "price_old": 709,
+      "url": "https://www.kelioniulaikas.lt/kelione/italija-nuo-venecijos-iki-veronos",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-02/10084_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-02/10084_grid.jpg"
+    },
+    {
+      "id": 607,
+      "name": "Ispaniška fiesta Barselonoje!",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Ispanija"
+      ],
+      "price": 798.06,
+      "price_old": 849,
+      "url": "https://www.kelioniulaikas.lt/kelione/ispaniska-fiesta-barselonoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7161_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7161_grid.jpg"
+    },
+    {
+      "id": 1393,
+      "name": "Paryžius yra Paryžius! (su Šampane)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija"
+      ],
+      "price": 799,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/paryzius-yra-paryzius-su-sampane",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-03/23144_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-03/23144_grid.jpg"
+    },
+    {
+      "id": 1414,
+      "name": "Kalėdinis Paryžius su Šampane",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija"
+      ],
+      "price": 824.64,
+      "price_old": 859,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledinis-paryzius-su-sampane",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9311_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9311_grid.jpg"
+    },
+    {
+      "id": 286,
+      "name": "Amžinoji Roma (5 d.)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 609,
+      "price_old": 609,
+      "url": "https://www.kelioniulaikas.lt/kelione/amzinoji-roma",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/450_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/450_grid.jpg"
+    },
+    {
+      "id": 767,
+      "name": "Amžinoji Roma",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 579,
+      "price_old": 579,
+      "url": "https://www.kelioniulaikas.lt/kelione/amzinoji-roma-4-d",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7171_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7171_grid.jpg"
+    },
+    {
+      "id": 700,
+      "name": "Arabiškoji Ispanija – Andalūzija (Malaga, Granada, Kordoba, Sevilija)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Ispanija"
+      ],
+      "price": 1009,
+      "price_old": 1009,
+      "url": "https://www.kelioniulaikas.lt/kelione/arabiskoji-ispanija-andaluzija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11842_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11842_grid.jpg"
+    },
+    {
+      "id": 1325,
+      "name": "Naujieji Metai Žydrojoje pakrantėje (Nica, Antibai, Kanai, Monakas)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija",
+        "Monakas"
+      ],
+      "price": 939.55,
+      "price_old": 989,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-zydrojoje-pakranteje-nica-antibai-kanai-monakas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-07/21396_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-07/21396_grid.jpg"
+    },
+    {
+      "id": 1335,
+      "name": "Kalėdinė Žydroji pakrantė (Nica, Antibai, Kanai, Monakas)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija",
+        "Monakas"
+      ],
+      "price": 671.04,
+      "price_old": 699,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-zydroji-pakrante-nica-antibai-kanai-monakas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-07/21394_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-07/21394_grid.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Žydroji pakrantė (Nica, Antibai, Kanai, Monakas)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija",
+        "Monakas"
+      ],
+      "price": 594.15,
+      "price_old": 699,
+      "url": "https://www.kelioniulaikas.lt/kelione/zydroji-pakrante-nica-antibai-kanai-monakas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/476_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/476_grid.jpg"
+    },
+    {
+      "id": 743,
+      "name": "Vezuvijaus papėdė - Amalfio pakrantė - Kapris",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/vezuvijaus-papede-amalfio-pakrante-kapris",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-11/12785_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-11/12785_grid.jpg"
+    },
+    {
+      "id": 756,
+      "name": "Po Toskanos saule (Cinque Terre - Luka - Florencija - Siena - Piza)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/po-toskanos-saule-cinque-terre-luka-florencija-siena-piza",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12144_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12144_grid.jpg"
+    },
+    {
+      "id": 566,
+      "name": "Pažintis su Sakartvelu (Gruzija)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Sakartvelas"
+      ],
+      "price": 799,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintis-su-sakartvelu-gruzija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-01/9583_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-01/9583_grid.jpg"
+    },
+    {
+      "id": 705,
+      "name": "Kalėdinė Roma",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 648.93,
+      "price_old": 669,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-roma",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-11/18285_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-11/18285_grid.jpg"
+    },
+    {
+      "id": 1334,
+      "name": "Naujieji Metai Stambule",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Turkija"
+      ],
+      "price": 719.1,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-stambule",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-09/21601_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-09/21601_grid.jpg"
+    },
+    {
+      "id": 629,
+      "name": "Amžinasis Stambulas",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Turkija"
+      ],
+      "price": 798.06,
+      "price_old": 849,
+      "url": "https://www.kelioniulaikas.lt/kelione/amzinasis-stambulas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21829_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21829_grid.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Pietų Italijos skoniai Apulijoje",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 829,
+      "price_old": 829,
+      "url": "https://www.kelioniulaikas.lt/kelione/pietu-italijos-skoniai-apulijoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7670_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7670_grid.jpg"
+    },
+    {
+      "id": 778,
+      "name": "Įspūdingoji Portugalija su poilsiu prie Atlanto vandenyno",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Portugalija"
+      ],
+      "price": 1598.76,
+      "price_old": 1699,
+      "url": "https://www.kelioniulaikas.lt/kelione/ispudingoji-portugalija-su-poilsiu",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-02/11517_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-02/11517_grid.jpg"
+    },
+    {
+      "id": 1408,
+      "name": "Edinburgas ir Škotijos aukštumų gamta",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Jungtinė Karalystė"
+      ],
+      "price": 1237.4,
+      "price_old": 1345,
+      "url": "https://www.kelioniulaikas.lt/kelione/edinburgas-ir-skotijos-aukstumu-gamta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-08/23680_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-08/23680_grid.jpg"
+    },
+    {
+      "id": 747,
+      "name": "Portugalija ir Douro upės slėnis",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Portugalija"
+      ],
+      "price": 1745,
+      "price_old": 1745,
+      "url": "https://www.kelioniulaikas.lt/kelione/portugalija-douro-upes-slenis",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-02/11527_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-02/11527_grid.jpg"
+    },
+    {
+      "id": 1073,
+      "name": "Naujieji Metai Islandijoje",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Islandija"
+      ],
+      "price": 2099,
+      "price_old": 2099,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-islandijoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-10/16600_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-10/16600_grid.jpg"
+    },
+    {
+      "id": 1221,
+      "name": "MČTAU Pažintinė kelionė į Islandiją",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Islandija"
+      ],
+      "price": 2274,
+      "price_old": 2274,
+      "url": "https://www.kelioniulaikas.lt/kelione/MČTAU-pazintine-kelione-i-islandija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-02/9940_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-02/9940_grid.jpg"
+    },
+    {
+      "id": 786,
+      "name": "MČTAU kelionė į JAE",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Jungtinių Arabų Emyratai"
+      ],
+      "price": 1749,
+      "price_old": 1749,
+      "url": "https://www.kelioniulaikas.lt/kelione/mctau-kelione-i-jae-dubajus",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/503_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/503_grid.jpg"
+    },
+    {
+      "id": 749,
+      "name": "Ragaujame Italiją! (Bolonija-San Marinas-Parma-Rimini)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/ragaujame-italija-bolonija-san-marinas-parma-rimini",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-11/12845_large.png",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-11/12845_grid.png"
+    },
+    {
+      "id": 1351,
+      "name": "Poilsis Italijoje - Peskara (su gurmaniška, pažintine programa)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 968.64,
+      "price_old": 1009,
+      "url": "https://www.kelioniulaikas.lt/kelione/poilsis-italijoje-peskara-su-gurmaniska-pazintine-programa",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/21949_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/21949_grid.jpg"
+    },
+    {
+      "id": 761,
+      "name": "Poilsis Italijoje - Rimini (su pažintine, degustacine programa)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/poilsis-italijoje-su-pazintine-degustacine-programa",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-04/13267_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-04/13267_grid.jpg"
+    },
+    {
+      "id": 780,
+      "name": "Luaros slėnio pilys ir romantiškasis Paryžius",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/luaros-slenio-pilys-ir-romantiskasis-paryzius",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-06/13517_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-06/13517_grid.jpg"
+    },
+    {
+      "id": 783,
+      "name": "Pažintinė kelionė į Maltą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Malta"
+      ],
+      "price": 671.04,
+      "price_old": 699,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-malta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-03/10374_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-03/10374_grid.jpg"
+    },
+    {
+      "id": 1301,
+      "name": "Pažintinė kelionė į Siciliją",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 799,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-sicilija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-03/10437_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-03/10437_grid.jpg"
+    },
+    {
+      "id": 1072,
+      "name": "Naujametinė pažintinė kelionė į Maltą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Malta"
+      ],
+      "price": 929.66,
+      "price_old": 989,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametine-pazintine-kelione-i-malta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-09/16572_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-09/16572_grid.jpg"
+    },
+    {
+      "id": 1336,
+      "name": "Kalėdinė Malta",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Malta"
+      ],
+      "price": 671.04,
+      "price_old": 699,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-malta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-09/16573_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-09/16573_grid.jpg"
+    },
+    {
+      "id": 1178,
+      "name": "Pažintinė kelionė į Maltą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Malta"
+      ],
+      "price": 890.1,
+      "price_old": 989,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-malta-5-d",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/408_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/408_grid.jpg"
+    },
+    {
+      "id": 1196,
+      "name": "Sen Mišelis - Sen Malo - Normandijos pakrantė",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija"
+      ],
+      "price": 1259,
+      "price_old": 1259,
+      "url": "https://www.kelioniulaikas.lt/kelione/sen-miselis-sen-malo-normandijos-pakrante",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12152_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12152_grid.jpg"
+    },
+    {
+      "id": 1198,
+      "name": "Šiaurės Kipras (pažintinė - poilsinė programa)",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Kipras"
+      ],
+      "price": 1069,
+      "price_old": 1069,
+      "url": "https://www.kelioniulaikas.lt/kelione/siaures-kipras-pazintine-poilsine-programa",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-11/20063_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-11/20063_grid.jpg"
+    },
+    {
+      "id": 1376,
+      "name": "Pažintinė kelionė į Bulgariją",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Bulgarija"
+      ],
+      "price": 1295,
+      "price_old": 1295,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-bulgarija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-02/23041_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-02/23041_grid.jpg"
+    },
+    {
+      "id": 1377,
+      "name": "Pažintinė kelionė į Rumuniją",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Rumunija"
+      ],
+      "price": 1275,
+      "price_old": 1275,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-rumunija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-03/23075_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-03/23075_grid.jpg"
+    },
+    {
+      "id": 1399,
+      "name": "Karališkoji Kopenhaga ir Švedijos Malmė",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Danija",
+        "Švedija"
+      ],
+      "price": 658.17,
+      "price_old": 695,
+      "url": "https://www.kelioniulaikas.lt/kelione/karaliskoji-kopenhaga-ir-pietine-svedija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-08/23612_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-08/23612_grid.jpg"
+    },
+    {
+      "id": 1304,
+      "name": "Pažintinė kelionė į Atėnus",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Graikija"
+      ],
+      "price": 785,
+      "price_old": 785,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-atenus",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-10/2307_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-10/2307_grid.jpg"
+    },
+    {
+      "id": 1395,
+      "name": "Pažintinė kelionė į Graikiją su poilsiu Korfu saloje",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Graikija"
+      ],
+      "price": 1192.25,
+      "price_old": 1255,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-graikija-su-poilsiu-korfu-saloje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-03/21020_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-03/21020_grid.jpg"
+    },
+    {
+      "id": 1323,
+      "name": "Naujametinė pažintinė kelionė į Paryžių",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija"
+      ],
+      "price": 775.03,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametinis-paryzius",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9316_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9316_grid.jpg"
+    },
+    {
+      "id": 1331,
+      "name": "Italijos ežerai - pažintinė kelionė po Gardą, Komą, Iseo ir Madžorę",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 899,
+      "price_old": 899,
+      "url": "https://www.kelioniulaikas.lt/kelione/italijos-ezerai-pazintine-kelione-po-garda-koma-iseo-ir-madzore",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-09/16547_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-09/16547_grid.jpg"
+    },
+    {
+      "id": 1332,
+      "name": "Tyrinėjimų ir atradimų ekspedicija į Egiptą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Egiptas"
+      ],
+      "price": 1500,
+      "price_old": 1500,
+      "url": "https://www.kelioniulaikas.lt/kelione/tyrinejimu-ir-atradimu-ekspedicija-i-egipta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-02/9775_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-02/9775_grid.jpg"
+    },
+    {
+      "id": 1343,
+      "name": "Savaitgalis karališkajame Budapešte",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Vengrija"
+      ],
+      "price": 599,
+      "price_old": 599,
+      "url": "https://www.kelioniulaikas.lt/kelione/savaitgalis-budapeste-4-d",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21677_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21677_grid.jpg"
+    },
+    {
+      "id": 1348,
+      "name": "Pažintinė kelionė į Šiaurės Kiprą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Kipras"
+      ],
+      "price": 759.05,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-siaures-kipra",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-11/18664_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-11/18664_grid.jpg"
+    },
+    {
+      "id": 1403,
+      "name": "Naujieji metai Šiaurės Kipre",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Kipras"
+      ],
+      "price": 949.63,
+      "price_old": 979,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-siaures-kipre",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-07/23458_large.png",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-07/23458_grid.png"
+    },
+    {
+      "id": 1413,
+      "name": "Kalėdinė kelionė į Šiaurės Kiprą",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Kipras"
+      ],
+      "price": 759.05,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-kelione-i-siaures-kipra",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-11/18663_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-11/18663_grid.jpg"
+    },
+    {
+      "id": 1352,
+      "name": "Atrask Belgiją - istorijos ir skonio kelionė",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Belgija"
+      ],
+      "price": 719.1,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/atrask-belgija-istorijos-ir-skonio-kelione",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/22206_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/22206_grid.jpg"
+    },
+    {
+      "id": 1359,
+      "name": "Pažintinė kelionė į Sakartvelą su poilsiu prie jūros",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Sakartvelas"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-sakartvela-su-poilsiu-prie-juros",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/22023_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/22023_grid.jpg"
+    },
+    {
+      "id": 1364,
+      "name": "Juodkalnija – Adrijos jūros perlas",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Juodkalnija"
+      ],
+      "price": 899,
+      "price_old": 899,
+      "url": "https://www.kelioniulaikas.lt/kelione/juodkalnija-adrijos-juros-perlas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-12/22531_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-12/22531_grid.jpg"
+    },
+    {
+      "id": 1375,
+      "name": "Azerbaidžanas - Ugnies žemės paslaptys",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Azerbaidžanas"
+      ],
+      "price": 1259.1,
+      "price_old": 1399,
+      "url": "https://www.kelioniulaikas.lt/kelione/azerbaidzanas-ugnies-zemes-paslaptys",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-02/22930_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-02/22930_grid.jpg"
+    },
+    {
+      "id": 1380,
+      "name": "Aktyvus poilsis Italijos Alpėse",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Italija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/aktyvus-poilsis-italijos-alpese",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-03/23183_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-03/23183_grid.jpg"
+    },
+    {
+      "id": 1383,
+      "name": "Nauji metai karališkajame Budapešte",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Vengrija"
+      ],
+      "price": 799,
+      "price_old": 799,
+      "url": "https://www.kelioniulaikas.lt/kelione/nauji-metai-karaliskajame-budapeste",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-10/11096_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-10/11096_grid.jpg"
+    },
+    {
+      "id": 1405,
+      "name": "Kroatija: saulė, jūra, užburianti gamta",
+      "transport_type": "Lėktuvu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Kroatija"
+      ],
+      "price": 1059,
+      "price_old": 1059,
+      "url": "https://www.kelioniulaikas.lt/kelione/kroatija-saule-jura-uzburianti-gamta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-07/23543_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-07/23543_grid.jpg"
+    }
+  ]
+}

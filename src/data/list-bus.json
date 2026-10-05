@@ -1,0 +1,1577 @@
+{
+  "status": "success",
+  "message": null,
+  "data": [
+    {
+      "id": 203,
+      "name": "Gražiausios Estijos salos: Sarema, Muhu, Hyjuma ir sostinė Talinas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija"
+      ],
+      "price": 279,
+      "price_old": 279,
+      "url": "https://www.kelioniulaikas.lt/kelione/graziausios-estijos-salos-sarema-muhu-hyjuma-ir-sostine-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-04/21061_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-04/21061_grid.jpg"
+    },
+    {
+      "id": 546,
+      "name": "Naujieji metai Torūnėje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 179,
+      "price_old": 179,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-toruneje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9248_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9248_grid.jpg"
+    },
+    {
+      "id": 551,
+      "name": "Kalėdinė Praha ir pasakiškasis Vroclavas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Čekija",
+        "Lenkija"
+      ],
+      "price": 324.72,
+      "price_old": 369,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-praha",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9269_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9269_grid.jpg"
+    },
+    {
+      "id": 461,
+      "name": "Rožių žydėjimas Latvijoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/roziu-zydejimas-latvijoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12085_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12085_grid.jpg"
+    },
+    {
+      "id": 692,
+      "name": "Kalėdinių žaisliukų gamyba Mozūruose",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 55.25,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/mozurai-sv-mikalojaus-konsulatas-ir-stiklo-zaisliuku-gamybos-manufaktura",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/22011_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/22011_grid.jpg"
+    },
+    {
+      "id": 548,
+      "name": "Naujieji Metai Krokuvoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 269.1,
+      "price_old": 299,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametine-krokuva",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9304_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9304_grid.jpg"
+    },
+    {
+      "id": 713,
+      "name": "Krokuva - Pramogų parkas Energylandia - Veličkos druskų kasyklos",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 259,
+      "price_old": 259,
+      "url": "https://www.kelioniulaikas.lt/kelione/pramogu-parkas-energylandia-velicka-krokuva",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-08/12513_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-08/12513_grid.jpg"
+    },
+    {
+      "id": 213,
+      "name": "Vroclavo ir Prahos magija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Čekija"
+      ],
+      "price": 289,
+      "price_old": 289,
+      "url": "https://www.kelioniulaikas.lt/kelione/vroclavo-ir-prahos-magija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/116_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/116_grid.jpg"
+    },
+    {
+      "id": 549,
+      "name": "Kalėdinė Viena ir didingasis Melkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Čekija",
+        "Austrija"
+      ],
+      "price": 271.15,
+      "price_old": 319,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-viena-ir-melkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9305_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9305_grid.jpg"
+    },
+    {
+      "id": 1199,
+      "name": "Jelgava ir 3 degustacijos!",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/jelgava-degustacijos",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-02/8618_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-02/8618_grid.jpg"
+    },
+    {
+      "id": 552,
+      "name": "Kalėdų magija Berlyne ir Varšuvoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Vokietija"
+      ],
+      "price": 239.2,
+      "price_old": 299,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-muge-berlyne",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9271_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9271_grid.jpg"
+    },
+    {
+      "id": 459,
+      "name": "Kuržemės pilys ir pramogų takas „Drėgmės pasaulis“",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/kurzemes-pilys-ir-pramogu-takas-dregmes-pasaulis",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-02/8604_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-02/8604_grid.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Lenkijos gotikos perlai - Torunė",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 143.1,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/lenkijos-gotikos-perlai-torune",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7326_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7326_grid.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Poilsis Jūrmaloje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 289,
+      "price_old": 289,
+      "url": "https://www.kelioniulaikas.lt/kelione/poilsis-jurmaloje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/237_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/237_grid.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Saremos sala - Talinas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija"
+      ],
+      "price": 179,
+      "price_old": 179,
+      "url": "https://www.kelioniulaikas.lt/kelione/saremos-sala-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/162_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/162_grid.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Krokuva – senoji Lenkijos sostinė, Čenstakava ir Veličkos druskų kasyklos",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 224.1,
+      "price_old": 249,
+      "url": "https://www.kelioniulaikas.lt/kelione/krokuva-velicka",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7162_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7162_grid.jpg"
+    },
+    {
+      "id": 181,
+      "name": "Balstogė - Supraslis - Tykocinas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/balstoge-ir-senasis-staciatikiu-kulturos-centras-suprasle-tikocinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11876_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11876_grid.jpg"
+    },
+    {
+      "id": 197,
+      "name": "Latvijos perlai: Rundalė, Ryga, Gaujos nacionalinis parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 159,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/latvijos-perlairundale-ryga-gaujos-nacionalinis-parkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/185_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/185_grid.jpg"
+    },
+    {
+      "id": 485,
+      "name": "Safaris, plaukimas laivu Mozūrų ežerais ir kanalais",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 59,
+      "price_old": 59,
+      "url": "https://www.kelioniulaikas.lt/kelione/safaris-plaukimas-laivu-mozuru-ezerais-ir-kanalais",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-02/8803.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-02/8803_grid.jpg"
+    },
+    {
+      "id": 199,
+      "name": "Latvijos Vidžemės Šveicarija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/latvijos-vidzemes-sveicarija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-11/4928_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-11/4928_grid.jpg"
+    },
+    {
+      "id": 306,
+      "name": "Vokietijos pramogų parkai (moksleiviams)",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija",
+        "Vokietija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/vokietijos-pramogu-parkai-moksleiviams",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7648_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7648_grid.jpg"
+    },
+    {
+      "id": 205,
+      "name": "Žiemgala: garsiausios pilys ir rūmai ir latviškų patiekalų degustacija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/ziemgala-garsiausios-pilys-ir-rumai",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/225_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/225_grid.jpg"
+    },
+    {
+      "id": 210,
+      "name": "Ir Latvijoje yra Venecija!",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 169,
+      "price_old": 169,
+      "url": "https://www.kelioniulaikas.lt/kelione/ir-latvijoje-yra-venecija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/175_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/175_grid.jpg"
+    },
+    {
+      "id": 215,
+      "name": "Saksonijos Šveicarija, Drezdenas, Meisenas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Vokietija"
+      ],
+      "price": 399,
+      "price_old": 399,
+      "url": "https://www.kelioniulaikas.lt/kelione/meisenas-drezdenas-saksonijos-sveicarija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/251_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/251_grid.jpg"
+    },
+    {
+      "id": 217,
+      "name": "Čekija - Austrija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Čekija",
+        "Austrija"
+      ],
+      "price": 489,
+      "price_old": 489,
+      "url": "https://www.kelioniulaikas.lt/kelione/cekija-austrija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/261_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/261_grid.jpg"
+    },
+    {
+      "id": 224,
+      "name": "Varšuvos panoramos ir karališkieji parkai",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 159,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/varsuvos-panoramos-ir-karaliskieji-parkai",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/145_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/145_grid.jpg"
+    },
+    {
+      "id": 225,
+      "name": "Gražiausios Europos sostinės: Praha, Viena, Budapeštas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Čekija",
+        "Austrija",
+        "Vengrija"
+      ],
+      "price": 404.1,
+      "price_old": 449,
+      "url": "https://www.kelioniulaikas.lt/kelione/graziausios-europos-sostinespraha-viena-budapestas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-03/20936_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-03/20936_grid.jpg"
+    },
+    {
+      "id": 226,
+      "name": "Slovakijos gamtos turtai",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Slovakija"
+      ],
+      "price": 379,
+      "price_old": 379,
+      "url": "https://www.kelioniulaikas.lt/kelione/slovakijos-gamtos-turtai",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11855_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11855_grid.jpg"
+    },
+    {
+      "id": 230,
+      "name": "Beniliuksas: Liuksemburgas,Belgija,Olandija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Liuksemburgas",
+        "Belgija",
+        "Olandija",
+        "Vokietija"
+      ],
+      "price": 689,
+      "price_old": 689,
+      "url": "https://www.kelioniulaikas.lt/kelione/beniliuksas-liuksemburgasbelgijaolandija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/6985_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/6985_grid.jpg"
+    },
+    {
+      "id": 232,
+      "name": "Ispanija, Vokietija, Prancūzija – didžiosios Europos valstybės",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Vokietija",
+        "Prancūzija",
+        "Ispanija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/ispanija-vokietija-prancuzija-didziosios-europos-valstybes",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/346_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/346_grid.jpg"
+    },
+    {
+      "id": 196,
+      "name": "Alyvų žydėjimas Latvijoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/alyvu-zydejimas-latvijoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-01/9619_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-01/9619_grid.jpg"
+    },
+    {
+      "id": 202,
+      "name": "Šiaurės miestų atradimai: Helsinkis - Talinas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija",
+        "Suomija"
+      ],
+      "price": 349,
+      "price_old": 349,
+      "url": "https://www.kelioniulaikas.lt/kelione/tartu-helsinkis-porvo-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7726_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7726_grid.jpg"
+    },
+    {
+      "id": 207,
+      "name": "Prancūzijos Elzasas ir Vokietijos Bavarija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Prancūzija",
+        "Vokietija"
+      ],
+      "price": 729,
+      "price_old": 729,
+      "url": "https://www.kelioniulaikas.lt/kelione/prancuzijos-elzasas-ir-vokietijos-bavarija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12114_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12114_grid.jpg"
+    },
+    {
+      "id": 471,
+      "name": "Ryga - Jūrmala",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/ryga-jurmala",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/236_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/236_grid.jpg"
+    },
+    {
+      "id": 477,
+      "name": "Estija: Pernu - Somos nacionalinis parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija",
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/estija-pernu-somos-nacionalinis-parkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-01/9555_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-01/9555_grid.jpg"
+    },
+    {
+      "id": 500,
+      "name": "Ryga-Jūrmala: kruizas Dauguvos upe",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/ryga-jurmala-kruizas-laivu-dauguvos-upe",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/196_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/196_grid.jpg"
+    },
+    {
+      "id": 501,
+      "name": "Romantiškoji Kuržemė",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/romantiskoji-kurzeme",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12100_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12100_grid.jpg"
+    },
+    {
+      "id": 553,
+      "name": "Naujametinė Praha-Viena",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Čekija",
+        "Austrija"
+      ],
+      "price": 355.11,
+      "price_old": 399,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametine-praha-viena",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9290_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9290_grid.jpg"
+    },
+    {
+      "id": 554,
+      "name": "Naujametinė Viena ir didingasis Melkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Austrija",
+        "Čekija"
+      ],
+      "price": 296.1,
+      "price_old": 329,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametine-viena",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9292_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9292_grid.jpg"
+    },
+    {
+      "id": 560,
+      "name": "Malborkas, Sopotas, Gdanskas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 143.1,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/malborkas-sopotas-gdanskas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/8577_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/8577_grid.jpg"
+    },
+    {
+      "id": 563,
+      "name": "Atgimę miestai: Poznanė, Potsdamas, Berlynas, Varšuva",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Vokietija"
+      ],
+      "price": 236.72,
+      "price_old": 269,
+      "url": "https://www.kelioniulaikas.lt/kelione/atgime-miestai-poznane-potsdamas-berlynas-varsuva",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/331_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/331_grid.jpg"
+    },
+    {
+      "id": 574,
+      "name": "Po Seinų, Punsko ir Augustavo kraštą",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/po-seinu-punsko-ir-augustavo-krasta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7320_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7320_grid.jpg"
+    },
+    {
+      "id": 615,
+      "name": "Laimos šokolado ir kalėdinės Rygos eglutės istorija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 55.25,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/laimos-sokolado-ir-kaledines-rygos-eglutes-istorija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-11/4925_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-11/4925_grid.jpg"
+    },
+    {
+      "id": 616,
+      "name": "Naujieji Metai Berlyne",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Vokietija"
+      ],
+      "price": 274.34,
+      "price_old": 319,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-berlyne",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-11/4923_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-11/4923_grid.jpg"
+    },
+    {
+      "id": 625,
+      "name": "Kalėdinė mugė Drezdene",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Vokietija"
+      ],
+      "price": 280.72,
+      "price_old": 319,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-muge-drezdene",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9264_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9264_grid.jpg"
+    },
+    {
+      "id": 634,
+      "name": "Gurmaniška Latvija",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/gurmaniska-latvija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-02/8615.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-02/8615_grid.jpg"
+    },
+    {
+      "id": 1197,
+      "name": "Latvijos skoniai (su 3 degustacijomis!)",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/latvijos-skoniai-su-3-degustacijomis",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-02/11587_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-02/11587_grid.jpg"
+    },
+    {
+      "id": 645,
+      "name": "Velička - Pramogų parkas Energylandia - Krokuva",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/pramogu-parkas-energylandia-krokuva",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11729.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11729_grid.jpg"
+    },
+    {
+      "id": 652,
+      "name": "Tartu \"AHHAA\" mokslo centras ir Talinas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Estija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/tartu-ahhaa-mokslo-centras-ir-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/169_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/169_grid.jpg"
+    },
+    {
+      "id": 654,
+      "name": "Karališkoji Varšuva - Koperniko mokslo centras",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 159,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/karaliskoji-varsuva-koperniko-mokslo-centras",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/333_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/333_grid.jpg"
+    },
+    {
+      "id": 657,
+      "name": "Mokslų centras \"AHHA\"-Kupranugarių parkas-Turaidos pilis",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/mokslu-centras-ahha-kupranugariu-parkas-turaidos-pilis",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/187_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/187_grid.jpg"
+    },
+    {
+      "id": 658,
+      "name": "Latviškas Holivudas - Tervetės gamtos parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/latviskas-holivudas-tervetes-gamtos-parkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-01/9623_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-01/9623_grid.jpg"
+    },
+    {
+      "id": 660,
+      "name": "Talinas-Ryga",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Estija",
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/talinas-ryga",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7680_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7680_grid.jpg"
+    },
+    {
+      "id": 662,
+      "name": "Kelionė po Mozūriją - tūkstančio ežerų kraštą",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/kelione-po-mozurija-tukstancio-ezeru-krasta",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-11/4369_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-11/4369_grid.jpg"
+    },
+    {
+      "id": 663,
+      "name": "Kutna Hora - Praha",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Čekija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/kutna-hora-praha",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-02/9913_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-02/9913_grid.jpg"
+    },
+    {
+      "id": 664,
+      "name": "Belančio pramogų parkas - Leipcigas - Drezdenas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Vokietija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/belancio-pramogu-parkas-leipcigas-drezdenas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/6981_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/6981_grid.jpg"
+    },
+    {
+      "id": 666,
+      "name": "Mozūrija - Dievo pabučiuota žemė",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/mozurija-dievo-pabuciuota-zeme",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-01/9548_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-01/9548_grid.jpg"
+    },
+    {
+      "id": 667,
+      "name": "SLOVAKIJA",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Slovakija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/slovakija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/7566_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/7566_grid.jpg"
+    },
+    {
+      "id": 672,
+      "name": "Austrija - Italija - Gardalendas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Austrija",
+        "Italija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/austrija-italija-gardalendas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-07/12470_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-07/12470_grid.jpg"
+    },
+    {
+      "id": 673,
+      "name": "Mikalojus Kopernikas. Didžiojo astronomo keliais",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/mikalojaus-koperniko-keliu",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/8584_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/8584_grid.jpg"
+    },
+    {
+      "id": 675,
+      "name": "Olandija ir Eftelingo pramogų parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Olandija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/olandija-ir-eftelingo-parmogu-parkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-06/12434_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-06/12434_grid.jpg"
+    },
+    {
+      "id": 676,
+      "name": "Europos parkas - Vokietijos Legolendas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Vokietija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/europos-parkas-vokietijos-legolendas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-03/13238_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-03/13238_grid.jpg"
+    },
+    {
+      "id": 678,
+      "name": "Ryga - Automobilių muziejus - Zoologijos sodas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/ryga-automobilu-muziejus-zoologijos-sodas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11745_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11745_grid.jpg"
+    },
+    {
+      "id": 681,
+      "name": "Geldapės safaris. Suvalkų kraštovaizdžio parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/geldapes-safaris-suvalku-krastovaizdzio-parkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/8351_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/8351_grid.jpg"
+    },
+    {
+      "id": 682,
+      "name": "Vidžemės pakrantės spalvos",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/vidzemes-pakrantes-spalvos",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11742_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11742_grid.jpg"
+    },
+    {
+      "id": 683,
+      "name": "Žavingoji Viena - Praterio atrakcionų parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Austrija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/zavingoji-viena-praterio-atrakcionu-parkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-05/13424_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-05/13424_grid.jpg"
+    },
+    {
+      "id": 684,
+      "name": "Austrijos gamtos magija",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Austrija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/austrijos-gamtos-magija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-03/11725_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-03/11725_grid.jpg"
+    },
+    {
+      "id": 685,
+      "name": "Svarovskio muziejus - Insbrukas – Bavarijos pilys",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Austrija",
+        "Vokietija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/svarovskio-muziejus-insbrukas-bavarijos-pilys",
+      "image_url": "https://www.kelioniulaikas.lt/files/2024-05/13429_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2024-05/13429_grid.jpg"
+    },
+    {
+      "id": 689,
+      "name": "Karališkoji Varšuva ir Mandoria pramogų parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/karaliskoji-varsuva-ir mandoria",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9288_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9288_grid.jpg"
+    },
+    {
+      "id": 690,
+      "name": "Šiaurės Vokietija-Riugeno sala-Okeanijos muziejus-Berlynas",
+      "transport_type": "Autobusu",
+      "travel_type": "Moksleiviams",
+      "countries": [
+        "Vokietija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/siaures-vokietija-riugeno-sala-okeanijos-muziejus-berlynas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12245_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12245_grid.jpg"
+    },
+    {
+      "id": 751,
+      "name": "Karališkoji Varšuva",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/karaliskoji-varsuva",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9252_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9252_grid.jpg"
+    },
+    {
+      "id": 755,
+      "name": "Naujametinė Ryga-šokolado degustacija-Gauja-Jūrmala",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 227.92,
+      "price_old": 259,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametine-ryga-gauja-jurmala",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21871_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21871_grid.jpg"
+    },
+    {
+      "id": 762,
+      "name": "Cėsis-Ligatne-Sigulda-Turaida su degutacijomis",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 169,
+      "price_old": 169,
+      "url": "https://www.kelioniulaikas.lt/kelione/cėsis-ligatnė-sigulda",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12094_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12094_grid.jpg"
+    },
+    {
+      "id": 733,
+      "name": "Laplandija - Kalėdų senelio būstinė",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija",
+        "Suomija",
+        "Laplandija"
+      ],
+      "price": 509.15,
+      "price_old": 599,
+      "url": "https://www.kelioniulaikas.lt/kelione/laplandija-kaledu-senelio-bustine",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-09/12672_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-09/12672_grid.jpg"
+    },
+    {
+      "id": 555,
+      "name": "Naujametinis Talinas ir „Tervise Paradiis“ vandens parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija"
+      ],
+      "price": 169.15,
+      "price_old": 199,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametinis-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9283_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9283_grid.jpg"
+    },
+    {
+      "id": 556,
+      "name": "Naujieji Metai Varšuvoje ir Suntago vandens pramogų parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 189,
+      "price_old": 189,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-varsuvoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9285_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9285_grid.jpg"
+    },
+    {
+      "id": 562,
+      "name": "Ledo skulptūrų festivalis Jelgavoje ir “Rūtos” šokoladas Šiauliuose",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/ledo-skulpturu-festivalis-jelgavoje-ir-rutos-sokoladas-siauliuose",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-12/9419.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-12/9419_grid.jpg"
+    },
+    {
+      "id": 621,
+      "name": "Kalėdinė Varšuva ir meduoliais kvepianti Torunė",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 143.65,
+      "price_old": 169,
+      "url": "https://www.kelioniulaikas.lt/kelione/karaliska-varsuva-ir-meduoliais-kvepianti-torune",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9288_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9288_grid.jpg"
+    },
+    {
+      "id": 649,
+      "name": "Zakopanė - užburiantis Tatrų kalnų grožis",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 359,
+      "price_old": 359,
+      "url": "https://www.kelioniulaikas.lt/kelione/uzburiantis-tatru-kalnu-grozis-1",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-07/23533_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-07/23533_grid.jpg"
+    },
+    {
+      "id": 656,
+      "name": "Rododendrų žydėjimas Latvijoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/jurmala-babites-rododendru-sodas-rygos-botanikos-sodas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-05/12096_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-05/12096_grid.jpg"
+    },
+    {
+      "id": 721,
+      "name": "Kalėdų dvasia Taline",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija"
+      ],
+      "price": 159.2,
+      "price_old": 199,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledinis-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9280_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9280_grid.jpg"
+    },
+    {
+      "id": 729,
+      "name": "Kalėdomis kvepianti Torunė ir Kalėdų Senelio žaisliukų dirbtuvės",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 143.1,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/kalediniai-eduoliais-kvepianti-torune-ir-kalediniai-stebuklai-kentsyne",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-09/12640_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-09/12640_grid.jpg"
+    },
+    {
+      "id": 759,
+      "name": "Žavingoji Praha ir Adaršpahų nacionalinis parkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Čekija"
+      ],
+      "price": 399,
+      "price_old": 399,
+      "url": "https://www.kelioniulaikas.lt/kelione/adarspahu-olos-praha",
+      "image_url": "https://www.kelioniulaikas.lt/files/2022-02/9911_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2022-02/9911_grid.jpg"
+    },
+    {
+      "id": 1071,
+      "name": "Miestai prie Dunojaus: Bratislava-Viena",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Slovakija",
+        "Austrija"
+      ],
+      "price": 389,
+      "price_old": 389,
+      "url": "https://www.kelioniulaikas.lt/kelione/bratislava-viena",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-06/12266_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-06/12266_grid.jpg"
+    },
+    {
+      "id": 1097,
+      "name": "Kalėdų magija Krokuvoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 220.15,
+      "price_old": 259,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-krokuva",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9300_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9300_grid.jpg"
+    },
+    {
+      "id": 1308,
+      "name": "Mikolajkos, Rynas, Šventaliepė, Hitlerio bunkeriai",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 55.9,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/mikolajkos",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-06/12392_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-06/12392_grid.jpg"
+    },
+    {
+      "id": 1315,
+      "name": "MČTAU TF PROJEKTAS  „TAUTIŠKOS GIESMĖS GIMTINĖ – SUVALKIJA (SŪDUVA)“",
+      "transport_type": "Autobusu",
+      "travel_type": "Ekskursija",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 100,
+      "price_old": 100,
+      "url": "https://www.kelioniulaikas.lt/kelione/MČTAU-TF-PROJEKTAS-„TAUTIŠKOS-GIESMĖS-GIMTINĖ–SUVALKIJA-(SŪDUVA)“",
+      "image_url": null,
+      "thumbnail_url": null
+    },
+    {
+      "id": 1333,
+      "name": "Jaunpilio pilies paslaptys ir Ryga",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 169,
+      "price_old": 169,
+      "url": "https://www.kelioniulaikas.lt/kelione/jaunpilio-pilies-paslaptys-ir-ryga",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-01/8595_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-01/8595_grid.jpg"
+    },
+    {
+      "id": 1337,
+      "name": "Gėlių paradas Olandijoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Nyderlandai",
+        "Olandija",
+        "Vokietija"
+      ],
+      "price": 669,
+      "price_old": 669,
+      "url": "https://www.kelioniulaikas.lt/kelione/geliu-paradas-olandijoje-6-d",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21660_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21660_grid.jpg"
+    },
+    {
+      "id": 1344,
+      "name": "Slidinėjimas Lenkijoje - Zakopanėje",
+      "transport_type": "Autobusu",
+      "travel_type": "Slidinėjimas",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 332.1,
+      "price_old": 369,
+      "url": "https://www.kelioniulaikas.lt/kelione/slidinejimas-lenkijoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21803_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21803_grid.jpg"
+    },
+    {
+      "id": 1346,
+      "name": "Naujametinė Varšuva ir žavingoji Torūnė",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 263.2,
+      "price_old": 329,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujametine-varsuva-3d",
+      "image_url": "https://www.kelioniulaikas.lt/files/2021-11/9284_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2021-11/9284_grid.jpg"
+    },
+    {
+      "id": 1349,
+      "name": "Pažintinė kelionė į Estiją: Tartu \"AHHAA\" centras, PROTO išradimų centras ir Talinas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/pazintine-kelione-i-estija-tartu-ahhaa-centras-proto-isradimu-centras-ir-talinas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21855.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21855_grid.jpg"
+    },
+    {
+      "id": 1353,
+      "name": "Austrijos gamtos ir miestų žavesys",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Austrija"
+      ],
+      "price": 549,
+      "price_old": 549,
+      "url": "https://www.kelioniulaikas.lt/kelione/austrijos-gamtos-ir-miestu-zavesys",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21757_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21757_grid.jpg"
+    },
+    {
+      "id": 1355,
+      "name": "Velykinė kelionė į Lenkiją. Stiklinių margučių gamyba",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 59,
+      "price_old": 59,
+      "url": "https://www.kelioniulaikas.lt/kelione/velykine-kelione-i-lenkija-stikliniu-marguciu-gamyba",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/21992_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/21992_grid.jpg"
+    },
+    {
+      "id": 1356,
+      "name": "Valentino dienos kelionė į Mozūrus su stiklinių širdelių dirbtuvėmis",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 59,
+      "price_old": 59,
+      "url": "https://www.kelioniulaikas.lt/kelione/valentino-dienos-kelione-i-mozurus-su-stikliniu-sirdeliu-dirbtuvemis",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/21999_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/21999_grid.jpg"
+    },
+    {
+      "id": 1360,
+      "name": "Kuoknesė-plaukimas Dauguvos mariomis-ledų degustacija",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/kuoknese-plaukimas-dauguvos-mariomis-ledu-degustacija",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-11/22172_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-11/22172_grid.jpg"
+    },
+    {
+      "id": 1363,
+      "name": "Gdanskas ir Šiaurės Lenkijos perlai: Fromborkas – Malborkas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 227.92,
+      "price_old": 259,
+      "url": "https://www.kelioniulaikas.lt/kelione/siaures-lenkija-fromborkas-gdanskas-malborkas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-12/22459_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-12/22459_grid.jpg"
+    },
+    {
+      "id": 1367,
+      "name": "Kelionė į Švediją - paslaptingasis Gotlandas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Švedija",
+        "Estija"
+      ],
+      "price": 399,
+      "price_old": 399,
+      "url": "https://www.kelioniulaikas.lt/kelione/kelione-i-svedija-paslaptingasis-gotlandas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/169_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/169_grid.jpg"
+    },
+    {
+      "id": 1368,
+      "name": "Dolomitinės Italijos Alpės",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Austrija",
+        "Italija"
+      ],
+      "price": 719,
+      "price_old": 719,
+      "url": "https://www.kelioniulaikas.lt/kelione/dolomitines-italijos-alpes",
+      "image_url": null,
+      "thumbnail_url": null
+    },
+    {
+      "id": 1369,
+      "name": "Ryga-plaukimas Rygos kanalais ir Dauguvos upe",
+      "transport_type": "Autobusu",
+      "travel_type": "Kolektyvams",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 0,
+      "price_old": 0,
+      "url": "https://www.kelioniulaikas.lt/kelione/ryga-plaukimas-rygos-kanalais-ir-dauguvos-upe",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-02/183_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-02/183_grid.jpg"
+    },
+    {
+      "id": 1370,
+      "name": "Mozelio ir Reino slėniais",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Vokietija"
+      ],
+      "price": 649,
+      "price_old": 649,
+      "url": "https://www.kelioniulaikas.lt/kelione/mozelio-ir-reino-sleniais",
+      "image_url": "https://www.kelioniulaikas.lt/files/2026-02/22906_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2026-02/22906_grid.jpg"
+    },
+    {
+      "id": 1381,
+      "name": "Varšuva ir „Suntago“: istorija, skoniai ir pramogos",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 143.1,
+      "price_old": 159,
+      "url": "https://www.kelioniulaikas.lt/kelione/varsuva-ir-suntago-istorija-skoniai-ir-pramogos",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/338_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/338_grid.jpg"
+    },
+    {
+      "id": 1386,
+      "name": "Šviesų festivalis Prahoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Čekija"
+      ],
+      "price": 299,
+      "price_old": 299,
+      "url": "https://www.kelioniulaikas.lt/kelione/sviesu-festivalis-prahoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21723_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21723_grid.jpg"
+    },
+    {
+      "id": 1391,
+      "name": "Saksonijos Šveicarija - Drezdenas - Berlynas",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija",
+        "Vokietija"
+      ],
+      "price": 359.1,
+      "price_old": 399,
+      "url": "https://www.kelioniulaikas.lt/kelione/saksonijos-sveicarija-drezdenas-berlynas",
+      "image_url": "https://www.kelioniulaikas.lt/files/2020-03/247_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2020-03/247_grid.jpg"
+    },
+    {
+      "id": 1392,
+      "name": "Nauji metai Laplandijoje",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Estija",
+        "Suomija",
+        "Laplandija"
+      ],
+      "price": 629.1,
+      "price_old": 699,
+      "url": "https://www.kelioniulaikas.lt/kelione/nauji-metai-laplandijoje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2023-12/12890_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2023-12/12890_grid.jpg"
+    },
+    {
+      "id": 1398,
+      "name": "Slidinėjimas Slovakijoje - Jasna kurorte",
+      "transport_type": "Autobusu",
+      "travel_type": "Slidinėjimas",
+      "countries": [
+        "Slovakija"
+      ],
+      "price": 386.1,
+      "price_old": 429,
+      "url": "https://www.kelioniulaikas.lt/kelione/slidinejimas-slovakijoje-jasna-kurorte",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-06/21286_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-06/21286_grid.jpg"
+    },
+    {
+      "id": 1401,
+      "name": "Naujųjų metų magija Gdanske",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Lenkija"
+      ],
+      "price": 260.1,
+      "price_old": 289,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujuju-metu-magija-gdanske",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-12/22462_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-12/22462_grid.jpg"
+    },
+    {
+      "id": 1402,
+      "name": "Naujieji metai Slovakijoje - slidinėjimas Jasna kurorte",
+      "transport_type": "Autobusu",
+      "travel_type": "Slidinėjimas",
+      "countries": [
+        "Slovakija"
+      ],
+      "price": 429.14,
+      "price_old": 499,
+      "url": "https://www.kelioniulaikas.lt/kelione/naujieji-metai-slovakijoje-slidinejant-jasna-kurorte",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-06/21285_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-06/21285_grid.jpg"
+    },
+    {
+      "id": 1410,
+      "name": "Kalėdinė Ryga ir Alchemiko šou Farmacijos muziejuje!",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 58.5,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/kaledine-ryga-ir-alchemiko-sou-farmacijos-muziejuje",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21869_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21869_grid.jpg"
+    },
+    {
+      "id": 1411,
+      "name": "Šventinis baletas Rygos nacionalinėje operoje ir kalėdinė Ryga",
+      "transport_type": "Autobusu",
+      "travel_type": "Pažintinės",
+      "countries": [
+        "Latvija"
+      ],
+      "price": 65,
+      "price_old": 65,
+      "url": "https://www.kelioniulaikas.lt/kelione/baleto-pasaka-latvijos-nacionalineje-operoje-ir-kaledine-ryga",
+      "image_url": "https://www.kelioniulaikas.lt/files/2025-10/21872_large.jpg",
+      "thumbnail_url": "https://www.kelioniulaikas.lt/files/2025-10/21872_grid.jpg"
+    }
+  ]
+}
