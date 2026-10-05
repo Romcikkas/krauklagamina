@@ -168,7 +168,7 @@
     },
     "grudaConsent": {
       "modalTitle": "Third-party plugin",
-      "notice": "This section uses a third-party travel search plugin. It uses third-party cookies (analytics, marketing). By clicking “Agree”, ×, or outside this box, you consent to this plugin’s cookies.",
+      "notice": "This section uses a third-party travel search plugin. It uses cookies (analytics, marketing). By clicking “Agree”, ×, or outside this box, you consent to this plugin’s cookies.",
       "closeAgreeLabel": "Agree and close",
       "privacyLinkLabel": "Third-party privacy policy",
       "accept": "Agree",

@@ -168,7 +168,7 @@
     },
     "grudaConsent": {
       "modalTitle": "Plugin strony trzeciej",
-      "notice": "W tej sekcji wyświetlany jest plugin wyszukiwania podróży strony trzeciej. Używa plików cookie stron trzecich (analityka, marketing). Klikając „Zgadzam się”, × lub poza tym oknem, wyrażasz zgodę na pliki cookie tego pluginu.",
+      "notice": "W tej sekcji wyświetlany jest plugin wyszukiwania podróży strony trzeciej. Używa plików cookie (analityka, marketing). Klikając „Zgadzam się”, × lub poza tym oknem, wyrażasz zgodę na pliki cookie tego pluginu.",
       "closeAgreeLabel": "Zgadzam się i zamknij",
       "privacyLinkLabel": "Polityka prywatności strony trzeciej",
       "accept": "Zgadzam się",

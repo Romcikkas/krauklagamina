@@ -168,7 +168,7 @@
     },
     "grudaConsent": {
       "modalTitle": "Trečiosios šalies įskiepis",
-      "notice": "Šiame bloke rodomas trečiosios šalies kelionių paieškos įskiepis. Jis naudoja trečiosios šalies slapukus (statistika, rinkodara). Paspausdami „Sutinku“, × arba už šio lango ribų sutinkate su šio įskiepio slapukais.",
+      "notice": "Šiame bloke rodomas trečiosios šalies kelionių paieškos įskiepis. Jis naudoja slapukus (statistika, rinkodara). Paspausdami „Sutinku“, × arba už šio lango ribų sutinkate su šio įskiepio slapukais.",
       "closeAgreeLabel": "Sutikti ir uždaryti",
       "privacyLinkLabel": "Trečiosios šalies privatumo politika",
       "accept": "Sutinku",
